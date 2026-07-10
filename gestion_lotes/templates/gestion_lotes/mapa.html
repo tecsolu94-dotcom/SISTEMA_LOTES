@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>VILLTECC - Sistema de Gestión de Lotes Interactivo</title>
     <style>
         /* 📱 Ajustes exclusivos para Celulares (Pantallas menores a 768px) */
@@ -13,12 +13,13 @@
     }
     #sidebar {
         width: 100%;
-        height: 45vh; /* Ocupa casi la mitad inferior */
+        height: 48vh; /* Ocupa casi la mitad inferior */
         position: fixed;
         bottom: 0;
-        z-index: 999;
-        border-radius: 15px 15px 0 0; /* Bordes redondeados estéticos arriba */
-        box-shadow: 0 -5px 15px rgba(0,0,0,0.3);
+        left: 0;
+        z-index: 1000;
+        overflow-y: auto; /* ⚡ Permite deslizar la lista de resultados suavemente con el pulgar */
+        -webkit-overflow-scrolling: touch; /* Scroll suave estilo nativo en iOS */
     }
     #map-container {
         width: 100%;
@@ -387,7 +388,9 @@ function limpiarBusqueda() {
             });
 
             // B. DIBUJAR NOMBRES DE MANZANAS GIGANTES
-            const mzFontSize = 45 / transform.scale;
+            let calculoSize = 40 / transform.scale;
+            const mzFontSize = Math.max(10, Math.min(calculoSize, 28)); 
+            
             ctx.font = `bold ${mzFontSize}px sans-serif`;
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
@@ -647,6 +650,86 @@ function guardarDesdeModal() {
         msjDiv.innerHTML = "<span style='color: #ff4d4d;'>❌ Error de conexión.</span>";
     });
 }
+// --- ⚡ 5. MOTOR TÁCTIL PARA CELULARES (MULTITÁCTIL) ---
+        let touchStartDist = 0;
+        let touchStartScale = 1;
+        let toqueCorto = true;
+
+        canvas.addEventListener('touchstart', (e) => {
+            toqueCorto = true;
+            if (e.touches.length === 1) {
+                // 1 Dedo: Mover el mapa
+                isDragging = true;
+                hasDragged = false;
+                const rect = canvas.getBoundingClientRect();
+                dragStart = { 
+                    x: e.touches[0].clientX - rect.left - transform.x, 
+                    y: e.touches[0].clientY - rect.top - transform.y 
+                };
+            } else if (e.touches.length === 2) {
+                // 2 Dedos: Pinch-to-Zoom (Calculamos la distancia inicial entre los dedos)
+                isDragging = false;
+                toqueCorto = false;
+                touchStartDist = Math.hypot(
+                    e.touches[0].clientX - e.touches[1].clientX,
+                    e.touches[0].clientY - e.touches[1].clientY
+                );
+                touchStartScale = transform.scale;
+            }
+        }, { passive: false });
+
+        canvas.addEventListener('touchmove', (e) => {
+            // ⚡ IMPORTANTE: Esto evita que la página web entera salte o se recargue mientras mueves el mapa
+            e.preventDefault(); 
+            
+            if (isDragging && e.touches.length === 1) {
+                const rect = canvas.getBoundingClientRect();
+                transform.x = (e.touches[0].clientX - rect.left) - dragStart.x;
+                transform.y = (e.touches[0].clientY - rect.top) - dragStart.y;
+                hasDragged = true;
+                toqueCorto = false;
+                dibujarMapa();
+            } else if (e.touches.length === 2 && touchStartDist > 0) {
+                // Calculamos el zoom en tiempo real según qué tanto abres o cierras los dedos
+                const distActual = Math.hypot(
+                    e.touches[0].clientX - e.touches[1].clientX,
+                    e.touches[0].clientY - e.touches[1].clientY
+                );
+                const factorZoom = distActual / touchStartDist;
+                transform.scale = Math.max(0.1, Math.min(touchStartScale * factorZoom, 10)); // Límites de zoom
+                dibujarMapa();
+            }
+        }, { passive: false });
+
+        canvas.addEventListener('touchend', (e) => {
+            // Si fue un toque rápido (sin arrastrar con 1 dedo), seleccionamos el lote
+            if (toqueCorto && e.changedTouches.length === 1 && !hasDragged) {
+                const rect = canvas.getBoundingClientRect();
+                const touchX = e.changedTouches[0].clientX - rect.left;
+                const touchY = e.changedTouches[0].clientY - rect.top;
+                
+                // Usamos la memoria del canvas para ver qué lote tocaste
+                ctx.save();
+                ctx.translate(transform.x, transform.y);
+                ctx.scale(transform.scale, transform.scale);
+                
+                let loteTocado = null;
+                for (let i = lotes.length - 1; i >= 0; i--) {
+                    if (ctx.isPointInPath(lotes[i].path, touchX, touchY)) {
+                        loteTocado = lotes[i];
+                        break;
+                    }
+                }
+                ctx.restore();
+
+                if (loteTocado) {
+                    loteSeleccionado = loteTocado;
+                    mostrarDetalleLote(loteSeleccionado);
+                    dibujarMapa();
+                }
+            }
+            isDragging = false;
+        });
     </script>
 </body>
 </html>
