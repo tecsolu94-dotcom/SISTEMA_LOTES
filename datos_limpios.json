@@ -1,0 +1,3602 @@
+[
+    {
+        "manzana": "B",
+        "lote": "MolinadeRiveraClotilde",
+        "propietario": "2"
+    },
+    {
+        "manzana": "B",
+        "lote": "YujraLlamoccaSilvanaUdamar",
+        "propietario": "1"
+    },
+    {
+        "manzana": "B1",
+        "lote": "20",
+        "propietario": "Alarcon Flores Ana"
+    },
+    {
+        "manzana": "B1",
+        "lote": "3",
+        "propietario": "Apaza Cervantes Maria"
+    },
+    {
+        "manzana": "B1",
+        "lote": "14",
+        "propietario": "Apaza Galindo Magaly"
+    },
+    {
+        "manzana": "B1",
+        "lote": "13",
+        "propietario": "Chalco Sivana Abraham"
+    },
+    {
+        "manzana": "B1",
+        "lote": "6",
+        "propietario": "Chunga Quispe Rafael"
+    },
+    {
+        "manzana": "B1",
+        "lote": "1",
+        "propietario": "Jove Cordova Rosa"
+    },
+    {
+        "manzana": "B1",
+        "lote": "22",
+        "propietario": "Jove Cordova Rosa"
+    },
+    {
+        "manzana": "B1",
+        "lote": "2",
+        "propietario": "Jove Cordova Rosa"
+    },
+    {
+        "manzana": "B1",
+        "lote": "10",
+        "propietario": "Escudero Marquez Karen"
+    },
+    {
+        "manzana": "B1",
+        "lote": "11",
+        "propietario": "Galindo Chipana Karina"
+    },
+    {
+        "manzana": "B1",
+        "lote": "9",
+        "propietario": "Galindo Gonzales Lileana"
+    },
+    {
+        "manzana": "B1",
+        "lote": "21",
+        "propietario": "Huamani Almidon Ana"
+    },
+    {
+        "manzana": "B1",
+        "lote": "8",
+        "propietario": "Mendoza Rojas George"
+    },
+    {
+        "manzana": "B1",
+        "lote": "15",
+        "propietario": "Mendoza Rojas George"
+    },
+    {
+        "manzana": "B1",
+        "lote": "17",
+        "propietario": "Pacheco Jaen Marlon"
+    },
+    {
+        "manzana": "B1",
+        "lote": "5",
+        "propietario": "Pacheco Torres Rodrigo"
+    },
+    {
+        "manzana": "B1",
+        "lote": "4",
+        "propietario": "perlacios Valdivia Jose"
+    },
+    {
+        "manzana": "B1",
+        "lote": "12",
+        "propietario": "Ticona Pinto Karla"
+    },
+    {
+        "manzana": "B1",
+        "lote": "19",
+        "propietario": "Torres Pinto Amparo"
+    },
+    {
+        "manzana": "B1",
+        "lote": "18",
+        "propietario": "Torres Pinto Amparo"
+    },
+    {
+        "manzana": "B1",
+        "lote": "7",
+        "propietario": "Traverso Cornejo Gina"
+    },
+    {
+        "manzana": "B1",
+        "lote": "16",
+        "propietario": "Traverso Cornejo Gina"
+    },
+    {
+        "manzana": "E1",
+        "lote": "4",
+        "propietario": "Arastegui Tito Shirley"
+    },
+    {
+        "manzana": "E1",
+        "lote": "16",
+        "propietario": "Culjaro Chipana Paulina"
+    },
+    {
+        "manzana": "E1",
+        "lote": "1",
+        "propietario": "Huaman Quispe Giovana"
+    },
+    {
+        "manzana": "E1",
+        "lote": "3",
+        "propietario": "Valdivia Salazar Emilia"
+    },
+    {
+        "manzana": "E1",
+        "lote": "20",
+        "propietario": "Valdivia Salazar Emilia"
+    },
+    {
+        "manzana": "E1",
+        "lote": "22",
+        "propietario": "Lazarte Cardenas Luz Marina"
+    },
+    {
+        "manzana": "E1",
+        "lote": "5",
+        "propietario": "Basilio Espinoza Santiago"
+    },
+    {
+        "manzana": "E1",
+        "lote": "18",
+        "propietario": "Basilio Espinoza Santiago"
+    },
+    {
+        "manzana": "E1",
+        "lote": "6",
+        "propietario": "Basualdo mendoza Tito"
+    },
+    {
+        "manzana": "E1",
+        "lote": "7",
+        "propietario": "Chura Alarcon Rosa"
+    },
+    {
+        "manzana": "E1",
+        "lote": "11",
+        "propietario": "Callocondo Iquise Jessica Rosario"
+    },
+    {
+        "manzana": "E1",
+        "lote": "12",
+        "propietario": "Salazar Quiroz Roberto Adeli"
+    },
+    {
+        "manzana": "E1",
+        "lote": "8",
+        "propietario": "Ricardo Enciso  Condori"
+    },
+    {
+        "manzana": "E1",
+        "lote": "2",
+        "propietario": "Bolivar Valencia Percy Richard"
+    },
+    {
+        "manzana": "E1",
+        "lote": "21",
+        "propietario": "Valencia Borja Narvi Odilia"
+    },
+    {
+        "manzana": "E1",
+        "lote": "9",
+        "propietario": "Vargas Vera Gina Nancy"
+    },
+    {
+        "manzana": "E1",
+        "lote": "17",
+        "propietario": "Rodriguez Carnero Rosa maria Elena"
+    },
+    {
+        "manzana": "F1",
+        "lote": "22",
+        "propietario": "Gomez Jove Merisol"
+    },
+    {
+        "manzana": "F1",
+        "lote": "1",
+        "propietario": "Vilca Bejar Antonia"
+    },
+    {
+        "manzana": "J",
+        "lote": "20",
+        "propietario": "Diaz Herrera Juvenal"
+    },
+    {
+        "manzana": "J",
+        "lote": "10",
+        "propietario": "Melo Ayamamani Dina"
+    },
+    {
+        "manzana": "J",
+        "lote": "11",
+        "propietario": "Melo Ayamamani Dina"
+    },
+    {
+        "manzana": "J",
+        "lote": "12",
+        "propietario": "Melo Ayamamani Dina"
+    },
+    {
+        "manzana": "J",
+        "lote": "1",
+        "propietario": "Manrique Bellido Lisseth Mabel"
+    },
+    {
+        "manzana": "J",
+        "lote": "2",
+        "propietario": "Espezua Leiva Edson Jhonatan"
+    },
+    {
+        "manzana": "J",
+        "lote": "21",
+        "propietario": "Pinto Valdivia Juan Jose"
+    },
+    {
+        "manzana": "J",
+        "lote": "22",
+        "propietario": "Pinto Valdivia Juan Jose"
+    },
+    {
+        "manzana": "J",
+        "lote": "3",
+        "propietario": "Torres Pinto Mirian"
+    },
+    {
+        "manzana": "J",
+        "lote": "4",
+        "propietario": "Huaman Fuentes de Checcya"
+    },
+    {
+        "manzana": "J",
+        "lote": "19",
+        "propietario": "Huaman Fuentes de Checcya"
+    },
+    {
+        "manzana": "K2",
+        "lote": "5",
+        "propietario": "Ala Zambrano David Robert"
+    },
+    {
+        "manzana": "K2",
+        "lote": "2",
+        "propietario": "Maribel Caballero"
+    },
+    {
+        "manzana": "K2",
+        "lote": "3",
+        "propietario": "Maribel Caballero"
+    },
+    {
+        "manzana": "K2",
+        "lote": "13",
+        "propietario": "Maribel Caballero"
+    },
+    {
+        "manzana": "K2",
+        "lote": "4",
+        "propietario": "Retamoso Hernani Daniel Richard"
+    },
+    {
+        "manzana": "K2",
+        "lote": "8",
+        "propietario": "Macedo Pinto Moises Edmundo Pablo"
+    },
+    {
+        "manzana": "K2",
+        "lote": "7",
+        "propietario": "Rosario del Pilar Macedo Vizcarra"
+    },
+    {
+        "manzana": "L",
+        "lote": "11",
+        "propietario": "Abarca Abarca Deysi"
+    },
+    {
+        "manzana": "L",
+        "lote": "3",
+        "propietario": "Arhuiri Mogollon Amenica"
+    },
+    {
+        "manzana": "L",
+        "lote": "4",
+        "propietario": "Arhuiri Mogollon Robert"
+    },
+    {
+        "manzana": "L",
+        "lote": "19",
+        "propietario": "Arhuiri Mogollon Robert"
+    },
+    {
+        "manzana": "L",
+        "lote": "18",
+        "propietario": "Cabana Gama Aide"
+    },
+    {
+        "manzana": "L",
+        "lote": "16",
+        "propietario": "Caceres Larico Sneyder"
+    },
+    {
+        "manzana": "L",
+        "lote": "17",
+        "propietario": "Cervantes Soto Jaime"
+    },
+    {
+        "manzana": "L",
+        "lote": "13",
+        "propietario": "Chalco Pacsi Carlos"
+    },
+    {
+        "manzana": "L",
+        "lote": "15",
+        "propietario": "Condori Barriga Rosalia"
+    },
+    {
+        "manzana": "L",
+        "lote": "14",
+        "propietario": "Geraldo Chalco Jimmy"
+    },
+    {
+        "manzana": "L",
+        "lote": "7",
+        "propietario": "Gutierrez Torres Factor"
+    },
+    {
+        "manzana": "L",
+        "lote": "9",
+        "propietario": "Madueño Vega Elizabeth"
+    },
+    {
+        "manzana": "L",
+        "lote": "6",
+        "propietario": "Mamani Pacsi Marco"
+    },
+    {
+        "manzana": "L",
+        "lote": "5",
+        "propietario": "Molina Ccompi Yuliana"
+    },
+    {
+        "manzana": "L",
+        "lote": "21",
+        "propietario": "Torres Sonco Pedro"
+    },
+    {
+        "manzana": "L",
+        "lote": "20",
+        "propietario": "Torres Sonco Pedro"
+    },
+    {
+        "manzana": "L",
+        "lote": "8",
+        "propietario": "Gutierrez Carpio Jorgue"
+    },
+    {
+        "manzana": "L",
+        "lote": "1",
+        "propietario": "Chuquitaipe Diaz Ana de los Angeles"
+    },
+    {
+        "manzana": "L",
+        "lote": "22",
+        "propietario": "Diaz Rosas Maria Magdalena"
+    },
+    {
+        "manzana": "L",
+        "lote": "2",
+        "propietario": "La zorra"
+    },
+    {
+        "manzana": "L",
+        "lote": "10",
+        "propietario": "Molina Huaman Gladys Dora"
+    },
+    {
+        "manzana": "L",
+        "lote": "12",
+        "propietario": "Bustinza Molina Jose Enrique"
+    },
+    {
+        "manzana": "M",
+        "lote": "10",
+        "propietario": "Alvarez Puraca Cinthia"
+    },
+    {
+        "manzana": "M",
+        "lote": "3",
+        "propietario": "Aucca Aranibar Daniela"
+    },
+    {
+        "manzana": "M",
+        "lote": "21",
+        "propietario": "Aucca Baca Alicia"
+    },
+    {
+        "manzana": "M",
+        "lote": "22",
+        "propietario": "Aucca Baca Flora"
+    },
+    {
+        "manzana": "M",
+        "lote": "4",
+        "propietario": "Aucca Baca Lisbeth"
+    },
+    {
+        "manzana": "M",
+        "lote": "20",
+        "propietario": "Aucca Baca Willians"
+    },
+    {
+        "manzana": "M",
+        "lote": "1",
+        "propietario": "Aucca Umeres Mercedes"
+    },
+    {
+        "manzana": "M",
+        "lote": "2",
+        "propietario": "Ayestas Aucca Luis"
+    },
+    {
+        "manzana": "M",
+        "lote": "14",
+        "propietario": "Bustinza Quispe Juan"
+    },
+    {
+        "manzana": "M",
+        "lote": "12",
+        "propietario": "Cano Huanca Nayda"
+    },
+    {
+        "manzana": "M",
+        "lote": "8",
+        "propietario": "Linares Asqui Mireya"
+    },
+    {
+        "manzana": "M",
+        "lote": "19",
+        "propietario": "Luna Herrera Ana Cecilia"
+    },
+    {
+        "manzana": "M",
+        "lote": "5",
+        "propietario": "Luna Herrera Ana Cecilia"
+    },
+    {
+        "manzana": "M",
+        "lote": "18",
+        "propietario": "Luna Herrera Ana Cecilia"
+    },
+    {
+        "manzana": "M",
+        "lote": "6",
+        "propietario": "Luna Herrera Ana Cecilia"
+    },
+    {
+        "manzana": "M",
+        "lote": "17",
+        "propietario": "Luna Herrera Ana Cecilia"
+    },
+    {
+        "manzana": "M",
+        "lote": "7",
+        "propietario": "Montajo Castillo Andrea"
+    },
+    {
+        "manzana": "M",
+        "lote": "11",
+        "propietario": "Rios Pinedo Erlinda"
+    },
+    {
+        "manzana": "M",
+        "lote": "16",
+        "propietario": "Romaño Velarde Gustavo"
+    },
+    {
+        "manzana": "M",
+        "lote": "13",
+        "propietario": "Toribio Bautista Talia"
+    },
+    {
+        "manzana": "M",
+        "lote": "15",
+        "propietario": "Velarde Rodriguez Rocio"
+    },
+    {
+        "manzana": "M",
+        "lote": "9",
+        "propietario": "Ventura Choque Julio"
+    },
+    {
+        "manzana": "O",
+        "lote": "1",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "22",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "2",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "21",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "3",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "20",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "4",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "19",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "5",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "18",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "6",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "17",
+        "propietario": "Anco Pastor Amador Davila"
+    },
+    {
+        "manzana": "O",
+        "lote": "11",
+        "propietario": "Diaz Torres Gino"
+    },
+    {
+        "manzana": "O",
+        "lote": "10",
+        "propietario": "Quispe Chavez  Juliana"
+    },
+    {
+        "manzana": "O",
+        "lote": "8",
+        "propietario": "Puma Larico Miguel Serafin"
+    },
+    {
+        "manzana": "O",
+        "lote": "7",
+        "propietario": "Puma Quispe Nilda Betty"
+    },
+    {
+        "manzana": "O",
+        "lote": "15",
+        "propietario": "Ticona Nina Juan carlos"
+    },
+    {
+        "manzana": "O",
+        "lote": "16",
+        "propietario": "Castro Mamani Sofia Flora"
+    },
+    {
+        "manzana": "O",
+        "lote": "13",
+        "propietario": "Banda Alarta Pamela Lucila"
+    },
+    {
+        "manzana": "O",
+        "lote": "12",
+        "propietario": "Fernandez Cabrera Santiago Henry"
+    },
+    {
+        "manzana": "O",
+        "lote": "14",
+        "propietario": "Mamani Coqueña Elizabeth"
+    },
+    {
+        "manzana": "O",
+        "lote": "9",
+        "propietario": "Garate Valencia Joey Monica"
+    },
+    {
+        "manzana": "W",
+        "lote": "2",
+        "propietario": "Alviri Minaya Rosario"
+    },
+    {
+        "manzana": "W",
+        "lote": "18",
+        "propietario": "Apaza Avila Ercolastico"
+    },
+    {
+        "manzana": "W",
+        "lote": "6",
+        "propietario": "Apaza Halanoca Cristina"
+    },
+    {
+        "manzana": "W",
+        "lote": "22",
+        "propietario": "Carpio Delgado Barbara"
+    },
+    {
+        "manzana": "W",
+        "lote": "3",
+        "propietario": "Chavez Cesar"
+    },
+    {
+        "manzana": "W",
+        "lote": "13",
+        "propietario": "Chirinos Quispe Aracely"
+    },
+    {
+        "manzana": "W",
+        "lote": "10",
+        "propietario": "Flores Flores Karina Jhoseline"
+    },
+    {
+        "manzana": "W",
+        "lote": "7",
+        "propietario": "Gomez Herrera Yovani"
+    },
+    {
+        "manzana": "W",
+        "lote": "11",
+        "propietario": "Huanuco Quispe Maria"
+    },
+    {
+        "manzana": "W",
+        "lote": "4",
+        "propietario": "Ito Machaca Luzmila"
+    },
+    {
+        "manzana": "W",
+        "lote": "21",
+        "propietario": "Larota Catunta David"
+    },
+    {
+        "manzana": "W",
+        "lote": "12",
+        "propietario": "Pari Cayllahui Jose"
+    },
+    {
+        "manzana": "W",
+        "lote": "5",
+        "propietario": "Velasquez Flores Matilde"
+    },
+    {
+        "manzana": "W",
+        "lote": "14",
+        "propietario": "Ccapa Sulla Alfredo"
+    },
+    {
+        "manzana": "W",
+        "lote": "8",
+        "propietario": "Cutipa Flores Augurio"
+    },
+    {
+        "manzana": "W",
+        "lote": "9",
+        "propietario": "Mamani Arana Miguelina"
+    },
+    {
+        "manzana": "W",
+        "lote": "1",
+        "propietario": "Herrera Caballero Jacqueline Lissette"
+    },
+    {
+        "manzana": "Z",
+        "lote": "1",
+        "propietario": "Ccapa Mogollon Irene"
+    },
+    {
+        "manzana": "Z",
+        "lote": "22",
+        "propietario": "Ccapa Mogollon Irene"
+    },
+    {
+        "manzana": "Z",
+        "lote": "21",
+        "propietario": "Ccapa Mogollon Irene"
+    },
+    {
+        "manzana": "Z",
+        "lote": "6",
+        "propietario": "Flores Simeon Melanie"
+    },
+    {
+        "manzana": "Z",
+        "lote": "8",
+        "propietario": "Galdos Frias Guillermo"
+    },
+    {
+        "manzana": "Z",
+        "lote": "15",
+        "propietario": "Galdos Frias Guillermo"
+    },
+    {
+        "manzana": "Z",
+        "lote": "5",
+        "propietario": "Huamalla Vasquez Ros"
+    },
+    {
+        "manzana": "Z",
+        "lote": "18",
+        "propietario": "Huamalla Farfan Florencia"
+    },
+    {
+        "manzana": "Z",
+        "lote": "2",
+        "propietario": "Mamani Chacon Pamela"
+    },
+    {
+        "manzana": "Z",
+        "lote": "20",
+        "propietario": "Mamani Coqueña Maria"
+    },
+    {
+        "manzana": "Z",
+        "lote": "7",
+        "propietario": "Manrique Alcazar Delicia"
+    },
+    {
+        "manzana": "Z",
+        "lote": "17",
+        "propietario": "Manrique de Simeon Juana"
+    },
+    {
+        "manzana": "Z",
+        "lote": "3",
+        "propietario": "Mayhua Alvarez Marcia"
+    },
+    {
+        "manzana": "Z",
+        "lote": "12",
+        "propietario": "Nina Apaza Merida"
+    },
+    {
+        "manzana": "Z",
+        "lote": "4",
+        "propietario": "Puma Huamalla Jose"
+    },
+    {
+        "manzana": "Z",
+        "lote": "19",
+        "propietario": "Puma Huamalla Julio"
+    },
+    {
+        "manzana": "Z",
+        "lote": "10",
+        "propietario": "Quispe Gonzales Jorge"
+    },
+    {
+        "manzana": "Z",
+        "lote": "13",
+        "propietario": "Quispe Gonzales Jorge"
+    },
+    {
+        "manzana": "Z",
+        "lote": "14",
+        "propietario": "Sucari Zambrano Sandi"
+    },
+    {
+        "manzana": "Z",
+        "lote": "16",
+        "propietario": "Ticona Manrique Luis"
+    },
+    {
+        "manzana": "Z",
+        "lote": "11",
+        "propietario": "Oviedo Mendoza Flavio"
+    },
+    {
+        "manzana": "Z",
+        "lote": "9",
+        "propietario": "Zambrano de Sucari Julia"
+    },
+    {
+        "manzana": "A1",
+        "lote": "44593",
+        "propietario": "Choquehuanca Vargas Adelys"
+    },
+    {
+        "manzana": "A1",
+        "lote": "3",
+        "propietario": "Cucua Apaza Jhony"
+    },
+    {
+        "manzana": "A1",
+        "lote": "18",
+        "propietario": "Delgado Gainza Willian"
+    },
+    {
+        "manzana": "A1",
+        "lote": "8",
+        "propietario": "Hancco choque David"
+    },
+    {
+        "manzana": "A1",
+        "lote": "20",
+        "propietario": "Maldonado Alanoca Jaime"
+    },
+    {
+        "manzana": "A1",
+        "lote": "21",
+        "propietario": "Maldonado Alanoca Jaime"
+    },
+    {
+        "manzana": "A1",
+        "lote": "7",
+        "propietario": "Maldonado Saucedo Neima"
+    },
+    {
+        "manzana": "A1",
+        "lote": "6",
+        "propietario": "Medina Medina Jessica"
+    },
+    {
+        "manzana": "A1",
+        "lote": "16",
+        "propietario": "Menaut Cayro Luisa"
+    },
+    {
+        "manzana": "A1",
+        "lote": "15",
+        "propietario": "Perlacios Valdivia David"
+    },
+    {
+        "manzana": "A1",
+        "lote": "5",
+        "propietario": "Ramirez Callo Felipe"
+    },
+    {
+        "manzana": "A1",
+        "lote": "4",
+        "propietario": "Saucedo Araujo"
+    },
+    {
+        "manzana": "A1",
+        "lote": "2013",
+        "propietario": "Toledo Luna Herbert"
+    },
+    {
+        "manzana": "A1",
+        "lote": "12",
+        "propietario": "Toledo Luna Herbert"
+    },
+    {
+        "manzana": "A1",
+        "lote": "1000:00:00",
+        "propietario": "Toledo Luna Herbert"
+    },
+    {
+        "manzana": "A1",
+        "lote": "17",
+        "propietario": "Torres Pinto Jenni"
+    },
+    {
+        "manzana": "A1",
+        "lote": "41883",
+        "propietario": "Urzagaste Valdez Maria Luisa"
+    },
+    {
+        "manzana": "A1",
+        "lote": "11",
+        "propietario": "Yucra Mestas Eloy"
+    },
+    {
+        "manzana": "A1",
+        "lote": "19",
+        "propietario": "Tapahuasco Polanco Laura"
+    },
+    {
+        "manzana": "A2",
+        "lote": "7",
+        "propietario": "Acosta Velarde Patricia"
+    },
+    {
+        "manzana": "A2",
+        "lote": "16",
+        "propietario": "Avila Acosta Gisell"
+    },
+    {
+        "manzana": "A2",
+        "lote": "9",
+        "propietario": "Barraza Mani Victor"
+    },
+    {
+        "manzana": "A2",
+        "lote": "3",
+        "propietario": "Bellido de Neyra Julia"
+    },
+    {
+        "manzana": "A2",
+        "lote": "12",
+        "propietario": "Calderon Mendoza Zahir"
+    },
+    {
+        "manzana": "A2",
+        "lote": "22",
+        "propietario": "Condori de Apaza Ofelia"
+    },
+    {
+        "manzana": "A2",
+        "lote": "10",
+        "propietario": "Fernandez Cabrera Hercilia"
+    },
+    {
+        "manzana": "A2",
+        "lote": "13",
+        "propietario": "Fernandez Cabrera Hercilia"
+    },
+    {
+        "manzana": "A2",
+        "lote": "18",
+        "propietario": "Mamani Adco Marcelino"
+    },
+    {
+        "manzana": "A2",
+        "lote": "14",
+        "propietario": "Mamani Choquehuanca Eduardo"
+    },
+    {
+        "manzana": "A2",
+        "lote": "15",
+        "propietario": "Mamani Choquehuanca Eduardo"
+    },
+    {
+        "manzana": "A2",
+        "lote": "11",
+        "propietario": "Mamani Sanca Magaly"
+    },
+    {
+        "manzana": "A2",
+        "lote": "8",
+        "propietario": "Manrique Tejada Dayse"
+    },
+    {
+        "manzana": "A2",
+        "lote": "6",
+        "propietario": "Naberos Lajo Flor"
+    },
+    {
+        "manzana": "A2",
+        "lote": "17",
+        "propietario": "Najar Torres Norman"
+    },
+    {
+        "manzana": "A2",
+        "lote": "1",
+        "propietario": "Peralta Lima Juan"
+    },
+    {
+        "manzana": "A2",
+        "lote": "20",
+        "propietario": "Reyes Balladades Sabino"
+    },
+    {
+        "manzana": "A2",
+        "lote": "2",
+        "propietario": "Reyes lima Elizabeth"
+    },
+    {
+        "manzana": "A2",
+        "lote": "21",
+        "propietario": "Reyes lima Kathiuska"
+    },
+    {
+        "manzana": "A2",
+        "lote": "4",
+        "propietario": "Villena Vladivia Adrian"
+    },
+    {
+        "manzana": "A2",
+        "lote": "5",
+        "propietario": "Tarifa Coaguila Jheimy"
+    },
+    {
+        "manzana": "A2",
+        "lote": "19",
+        "propietario": "Llanos Sallo Eulogia"
+    },
+    {
+        "manzana": "B2",
+        "lote": "7",
+        "propietario": "Alcazar Castillo Mary del Carmen"
+    },
+    {
+        "manzana": "B2",
+        "lote": "21",
+        "propietario": "Chalco Figueroa Lorena"
+    },
+    {
+        "manzana": "B2",
+        "lote": "5",
+        "propietario": "Chipana Choque Amparo"
+    },
+    {
+        "manzana": "B2",
+        "lote": "18",
+        "propietario": "Chipana Choque Julia"
+    },
+    {
+        "manzana": "B2",
+        "lote": "9",
+        "propietario": "Colos Ccallme Edwin"
+    },
+    {
+        "manzana": "B2",
+        "lote": "2",
+        "propietario": "Flores Mariño Liz"
+    },
+    {
+        "manzana": "B2",
+        "lote": "3",
+        "propietario": "Miller Victor"
+    },
+    {
+        "manzana": "B2",
+        "lote": "20",
+        "propietario": "Miller Victor"
+    },
+    {
+        "manzana": "B2",
+        "lote": "6",
+        "propietario": "Miller Victor"
+    },
+    {
+        "manzana": "B2",
+        "lote": "17",
+        "propietario": "Miller Victor"
+    },
+    {
+        "manzana": "B2",
+        "lote": "8",
+        "propietario": "Pari Chambi Hermelinda"
+    },
+    {
+        "manzana": "B2",
+        "lote": "15",
+        "propietario": "Pari Chambi Hermelinda"
+    },
+    {
+        "manzana": "B2",
+        "lote": "16",
+        "propietario": "Quispe Sanga Fortunato"
+    },
+    {
+        "manzana": "B2",
+        "lote": "10",
+        "propietario": "Raul Gallegos Jara"
+    },
+    {
+        "manzana": "B2",
+        "lote": "11",
+        "propietario": "Raul Gallegos Jara"
+    },
+    {
+        "manzana": "B2",
+        "lote": "12",
+        "propietario": "Raul Gallegos Jara"
+    },
+    {
+        "manzana": "B2",
+        "lote": "13",
+        "propietario": "Raul Gallegos Jara"
+    },
+    {
+        "manzana": "B2",
+        "lote": "19",
+        "propietario": "Roque Ilacutipa Maria Luiza"
+    },
+    {
+        "manzana": "B2",
+        "lote": "1",
+        "propietario": "Taco de Vilca Angelita"
+    },
+    {
+        "manzana": "B2",
+        "lote": "22",
+        "propietario": "Taco de Vilca Angelita"
+    },
+    {
+        "manzana": "B2",
+        "lote": "4",
+        "propietario": "Hidalgo Mamani Margarita"
+    },
+    {
+        "manzana": "B2",
+        "lote": "14",
+        "propietario": "Zegarra Miranda Paola"
+    },
+    {
+        "manzana": "C",
+        "lote": "1",
+        "propietario": "MEDINA PEREZ CARMEN"
+    },
+    {
+        "manzana": "C",
+        "lote": "2",
+        "propietario": "MEDINA PEREZ CARMEN"
+    },
+    {
+        "manzana": "C",
+        "lote": "21",
+        "propietario": "MEDINA PEREZ CARMEN"
+    },
+    {
+        "manzana": "C",
+        "lote": "22",
+        "propietario": "MEDINA PEREZ CARMEN"
+    },
+    {
+        "manzana": "C",
+        "lote": "3",
+        "propietario": "FUENTES PERACOLCA IMELDA"
+    },
+    {
+        "manzana": "C",
+        "lote": "4",
+        "propietario": "AGUILAR FUENTES PAMELA"
+    },
+    {
+        "manzana": "C",
+        "lote": "5",
+        "propietario": "BEGAZO ROJAS YUDI"
+    },
+    {
+        "manzana": "C",
+        "lote": "18",
+        "propietario": "BEGAZO ROJAS YUDI"
+    },
+    {
+        "manzana": "C",
+        "lote": "6",
+        "propietario": "BEGAZO ROJAS MARLENY"
+    },
+    {
+        "manzana": "C",
+        "lote": "17",
+        "propietario": "BEGAZO ROJAS MARLENY"
+    },
+    {
+        "manzana": "C",
+        "lote": "7",
+        "propietario": "FLOREZ FERNANDO"
+    },
+    {
+        "manzana": "C",
+        "lote": "8",
+        "propietario": "VIZCARRA DORIS"
+    },
+    {
+        "manzana": "C",
+        "lote": "15",
+        "propietario": "VIZCARRA DORIS"
+    },
+    {
+        "manzana": "C",
+        "lote": "20",
+        "propietario": "CONDORI HUAYHUA LUZ MILA"
+    },
+    {
+        "manzana": "C",
+        "lote": "11",
+        "propietario": "ZACARIAS VALDEZ MAMANI"
+    },
+    {
+        "manzana": "C",
+        "lote": "12",
+        "propietario": "ZACARIAS VALDEZ MAMANI"
+    },
+    {
+        "manzana": "C",
+        "lote": "10",
+        "propietario": "ZACARIAS VALDEZ MAMANI"
+    },
+    {
+        "manzana": "C",
+        "lote": "13",
+        "propietario": "ZACARIAS VALDEZ MAMANI"
+    },
+    {
+        "manzana": "C",
+        "lote": "14",
+        "propietario": "FIGUEROA TURPO ABRAHAM"
+    },
+    {
+        "manzana": "C",
+        "lote": "16",
+        "propietario": "CORDOVA ESPINOZA ARGELIO"
+    },
+    {
+        "manzana": "C",
+        "lote": "19",
+        "propietario": "RAMOS CHOQUE CASILDA"
+    },
+    {
+        "manzana": "C",
+        "lote": "9",
+        "propietario": "CALLA MITA LISSETTE"
+    },
+    {
+        "manzana": "C1",
+        "lote": "2",
+        "propietario": "Almonte Alvarez Ivor"
+    },
+    {
+        "manzana": "C1",
+        "lote": "21",
+        "propietario": "Almonte Alvarez Ivor"
+    },
+    {
+        "manzana": "C1",
+        "lote": "9",
+        "propietario": "Apaza Vargas Geovany"
+    },
+    {
+        "manzana": "C1",
+        "lote": "12",
+        "propietario": "Carpio Cardenas Ysabel"
+    },
+    {
+        "manzana": "C1",
+        "lote": "11",
+        "propietario": "Carpio Carpio Fernanda"
+    },
+    {
+        "manzana": "C1",
+        "lote": "8",
+        "propietario": "Chara Arce Richard"
+    },
+    {
+        "manzana": "C1",
+        "lote": "15",
+        "propietario": "Chara Arce Richard"
+    },
+    {
+        "manzana": "C1",
+        "lote": "10",
+        "propietario": "Chirinos Mendoza Carlos"
+    },
+    {
+        "manzana": "C1",
+        "lote": "1",
+        "propietario": "Choqueña Churata Abimael"
+    },
+    {
+        "manzana": "C1",
+        "lote": "22",
+        "propietario": "Choqueña Churata Abimael"
+    },
+    {
+        "manzana": "C1",
+        "lote": "20",
+        "propietario": "Escudero Aronaca Elsa"
+    },
+    {
+        "manzana": "C1",
+        "lote": "18",
+        "propietario": "Hinojosa Allasi Deysi"
+    },
+    {
+        "manzana": "C1",
+        "lote": "17",
+        "propietario": "Huamani Almiron Roberto"
+    },
+    {
+        "manzana": "C1",
+        "lote": "4",
+        "propietario": "Huaracha Allasi Edith"
+    },
+    {
+        "manzana": "C1",
+        "lote": "6",
+        "propietario": "Llerena Flores Arial"
+    },
+    {
+        "manzana": "C1",
+        "lote": "19",
+        "propietario": "Rojas Cabana Jorge"
+    },
+    {
+        "manzana": "C1",
+        "lote": "5",
+        "propietario": "Vilca Llanos Nieves"
+    },
+    {
+        "manzana": "C1",
+        "lote": "7",
+        "propietario": "Visa Hilari Eber"
+    },
+    {
+        "manzana": "C1",
+        "lote": "16",
+        "propietario": "Visa Hilari Yerson"
+    },
+    {
+        "manzana": "C1",
+        "lote": "13",
+        "propietario": "Zegarra Calderon Concepción"
+    },
+    {
+        "manzana": "C1",
+        "lote": "14",
+        "propietario": "Zegarra Calderon Maria"
+    },
+    {
+        "manzana": "C1",
+        "lote": "3",
+        "propietario": "Escudero Aronaca Carmen"
+    },
+    {
+        "manzana": "C2",
+        "lote": "18",
+        "propietario": "Arcos Giraldo Solange"
+    },
+    {
+        "manzana": "C2",
+        "lote": "19",
+        "propietario": "Estrada Karina Yolanda"
+    },
+    {
+        "manzana": "C2",
+        "lote": "21",
+        "propietario": "Estrada Karina Yolanda"
+    },
+    {
+        "manzana": "C2",
+        "lote": "10",
+        "propietario": "Estrada Tapahuasco Raul Vanel"
+    },
+    {
+        "manzana": "C2",
+        "lote": "12",
+        "propietario": "Estrada Tapahuasco Raul Vanel"
+    },
+    {
+        "manzana": "C2",
+        "lote": "20",
+        "propietario": "Estrada Tapahuasco victor Joel"
+    },
+    {
+        "manzana": "C2",
+        "lote": "22",
+        "propietario": "Estrada Tapahuasco victor Joel"
+    },
+    {
+        "manzana": "C2",
+        "lote": "5",
+        "propietario": "Fernandez Villasante Nancy"
+    },
+    {
+        "manzana": "C2",
+        "lote": "9",
+        "propietario": "Lima Nina Jose Leandro"
+    },
+    {
+        "manzana": "C2",
+        "lote": "6",
+        "propietario": "Niño Miranda Josue Gustavo"
+    },
+    {
+        "manzana": "C2",
+        "lote": "11",
+        "propietario": "Quintanilla Tapahuasco Benji"
+    },
+    {
+        "manzana": "C2",
+        "lote": "8",
+        "propietario": "Quintanilla Katherine Milagros"
+    },
+    {
+        "manzana": "C2",
+        "lote": "13",
+        "propietario": "Quiroz Tozoninos Harold Antonio"
+    },
+    {
+        "manzana": "C2",
+        "lote": "14",
+        "propietario": "Quiroz Tozoninos Harold Antonio"
+    },
+    {
+        "manzana": "C2",
+        "lote": "16",
+        "propietario": "Salas Roman Carlos"
+    },
+    {
+        "manzana": "C2",
+        "lote": "7",
+        "propietario": "Tapahuasco Polanco Monica Milagros"
+    },
+    {
+        "manzana": "C2",
+        "lote": "15",
+        "propietario": "Tapahuasco Polanco Teresa"
+    },
+    {
+        "manzana": "C2",
+        "lote": "17",
+        "propietario": "Tapahuasco Polanco Teresa"
+    },
+    {
+        "manzana": "C2",
+        "lote": "1",
+        "propietario": "Tejada Tapahuasco Eduardo"
+    },
+    {
+        "manzana": "C2",
+        "lote": "3",
+        "propietario": "Tejada Tapahuasco Eduardo"
+    },
+    {
+        "manzana": "C2",
+        "lote": "2",
+        "propietario": "Tejada Tapahuasco Karen Eduvijes"
+    },
+    {
+        "manzana": "C2",
+        "lote": "4",
+        "propietario": "Tejada Tapahuasco Karen Eduvijes"
+    },
+    {
+        "manzana": "D",
+        "lote": "1",
+        "propietario": "GROVAS CUTIPA HUGO DAVID"
+    },
+    {
+        "manzana": "D",
+        "lote": "2",
+        "propietario": "GROVAS CUTIPA HUGO DAVID"
+    },
+    {
+        "manzana": "D",
+        "lote": "20",
+        "propietario": "GROVAS CUTIPA HUGO DAVID"
+    },
+    {
+        "manzana": "D",
+        "lote": "21",
+        "propietario": "GROVAS CUTIPA HUGO DAVID"
+    },
+    {
+        "manzana": "D1",
+        "lote": "7",
+        "propietario": "Aparicio Peñaloza Carlos"
+    },
+    {
+        "manzana": "D1",
+        "lote": "11",
+        "propietario": "Canazas Taya Karol Valeria"
+    },
+    {
+        "manzana": "D1",
+        "lote": "21",
+        "propietario": "Chambi challa Ysabel"
+    },
+    {
+        "manzana": "D1",
+        "lote": "2",
+        "propietario": "Chambi challa Ysabel"
+    },
+    {
+        "manzana": "D1",
+        "lote": "3",
+        "propietario": "Delgado Alarcon Gloria"
+    },
+    {
+        "manzana": "D1",
+        "lote": "13",
+        "propietario": "Estefanero Molleapaza Katherine"
+    },
+    {
+        "manzana": "D1",
+        "lote": "16",
+        "propietario": "Ibarra Cuadros Diosinis"
+    },
+    {
+        "manzana": "D1",
+        "lote": "15",
+        "propietario": "Ibarra Quispe Maria"
+    },
+    {
+        "manzana": "D1",
+        "lote": "9",
+        "propietario": "Ibarra Quispe Pabel"
+    },
+    {
+        "manzana": "D1",
+        "lote": "14",
+        "propietario": "Ibarra Quispe Ronnie"
+    },
+    {
+        "manzana": "D1",
+        "lote": "5",
+        "propietario": "Laura Chavez Cindhi"
+    },
+    {
+        "manzana": "D1",
+        "lote": "18",
+        "propietario": "Laura Chavez Cindhi"
+    },
+    {
+        "manzana": "D1",
+        "lote": "6",
+        "propietario": "Laura Dueñas Tania"
+    },
+    {
+        "manzana": "D1",
+        "lote": "8",
+        "propietario": "Sillo Huanca Luis Miguel"
+    },
+    {
+        "manzana": "D1",
+        "lote": "10",
+        "propietario": "Ticona Gonzales Nancy"
+    },
+    {
+        "manzana": "D1",
+        "lote": "17",
+        "propietario": "Vilca Alhuiri Maria"
+    },
+    {
+        "manzana": "D1",
+        "lote": "4",
+        "propietario": "Zegarra Delgado Joel"
+    },
+    {
+        "manzana": "D1",
+        "lote": "19",
+        "propietario": "Zegarra Delgado Joel"
+    },
+    {
+        "manzana": "D1",
+        "lote": "1",
+        "propietario": "Tovar Llampi Gladys"
+    },
+    {
+        "manzana": "D1",
+        "lote": "22",
+        "propietario": "Ortega Tovar Erick"
+    },
+    {
+        "manzana": "D1",
+        "lote": "20",
+        "propietario": "Chambi Challa Percy"
+    },
+    {
+        "manzana": "D1",
+        "lote": "12",
+        "propietario": "Condori Arapa Hector Lucas"
+    },
+    {
+        "manzana": "D2",
+        "lote": "1",
+        "propietario": "Almiron Baca Carlota"
+    },
+    {
+        "manzana": "D2",
+        "lote": "22",
+        "propietario": "Almiron Baca Carlota"
+    },
+    {
+        "manzana": "D2",
+        "lote": "4",
+        "propietario": "Salinas Pinto Christiam"
+    },
+    {
+        "manzana": "D2",
+        "lote": "5",
+        "propietario": "Bellido Huanxallo Ivanne"
+    },
+    {
+        "manzana": "D2",
+        "lote": "18",
+        "propietario": "Bellido Huanxallo Ivanne"
+    },
+    {
+        "manzana": "D2",
+        "lote": "7",
+        "propietario": "Cardenas Zagarra Eliana"
+    },
+    {
+        "manzana": "D2",
+        "lote": "16",
+        "propietario": "Cardenas Zagarra Eliana"
+    },
+    {
+        "manzana": "D2",
+        "lote": "15",
+        "propietario": "Cardenas Zegarra Jesus"
+    },
+    {
+        "manzana": "D2",
+        "lote": "2",
+        "propietario": "Chacnama Aguilar Luiza"
+    },
+    {
+        "manzana": "D2",
+        "lote": "3",
+        "propietario": "Davila Lazarinos Renzo"
+    },
+    {
+        "manzana": "D2",
+        "lote": "11",
+        "propietario": "Medina Fernandez Walter"
+    },
+    {
+        "manzana": "D2",
+        "lote": "9",
+        "propietario": "Montalvo Neyra Luz"
+    },
+    {
+        "manzana": "D2",
+        "lote": "6",
+        "propietario": "Neyra Bellido Rocio"
+    },
+    {
+        "manzana": "D2",
+        "lote": "17",
+        "propietario": "Neyra Bellido Rocio"
+    },
+    {
+        "manzana": "D2",
+        "lote": "21",
+        "propietario": "Bolivar Valencia Percy Richard"
+    },
+    {
+        "manzana": "D2",
+        "lote": "12",
+        "propietario": "Sargento Sihua Daniela"
+    },
+    {
+        "manzana": "D2",
+        "lote": "13",
+        "propietario": "Sihua Chirinos Vilma"
+    },
+    {
+        "manzana": "D2",
+        "lote": "14",
+        "propietario": "Vargas Moran Vanessa"
+    },
+    {
+        "manzana": "D2",
+        "lote": "10",
+        "propietario": "Vera Alejo"
+    },
+    {
+        "manzana": "D2",
+        "lote": "8",
+        "propietario": "Zegarra Pino Eliana"
+    },
+    {
+        "manzana": "D2",
+        "lote": "4",
+        "propietario": "Salinas Pinto Cristian"
+    },
+    {
+        "manzana": "E2",
+        "lote": "8",
+        "propietario": "Aguilar Romero David"
+    },
+    {
+        "manzana": "E2",
+        "lote": "5",
+        "propietario": "Bellido Portocarrero Zoila"
+    },
+    {
+        "manzana": "E2",
+        "lote": "15",
+        "propietario": "Bolivar Montes Alexandra"
+    },
+    {
+        "manzana": "E2",
+        "lote": "3",
+        "propietario": "Bravo Huallpa Elizabeth"
+    },
+    {
+        "manzana": "E2",
+        "lote": "11",
+        "propietario": "Choque Yucra Javier"
+    },
+    {
+        "manzana": "E2",
+        "lote": "10",
+        "propietario": "Esquerra Cosio Juan"
+    },
+    {
+        "manzana": "E2",
+        "lote": "19",
+        "propietario": "Esquivel Martinez Yuli"
+    },
+    {
+        "manzana": "E2",
+        "lote": "4",
+        "propietario": "Fernandez Gonzales Alberto"
+    },
+    {
+        "manzana": "E2",
+        "lote": "16",
+        "propietario": "Flores Chavez Fanny"
+    },
+    {
+        "manzana": "E2",
+        "lote": "22",
+        "propietario": "Frias Savedra Kevin"
+    },
+    {
+        "manzana": "E2",
+        "lote": "21",
+        "propietario": "Frias Savedra Kevin"
+    },
+    {
+        "manzana": "E2",
+        "lote": "7",
+        "propietario": "Llerena Caceres Victor"
+    },
+    {
+        "manzana": "E2",
+        "lote": "20",
+        "propietario": "Llerena Montes Emilia"
+    },
+    {
+        "manzana": "E2",
+        "lote": "1",
+        "propietario": "Mamani Ballena Guido"
+    },
+    {
+        "manzana": "E2",
+        "lote": "2",
+        "propietario": "Mamani Ballena Julia"
+    },
+    {
+        "manzana": "E2",
+        "lote": "6",
+        "propietario": "Rojas Pinto Angelica"
+    },
+    {
+        "manzana": "E2",
+        "lote": "9",
+        "propietario": "Sarmiento Gomez Nely luz"
+    },
+    {
+        "manzana": "E2",
+        "lote": "12",
+        "propietario": "Tapia Vilca Fiorella"
+    },
+    {
+        "manzana": "E2",
+        "lote": "17",
+        "propietario": "Tupac Yupanqui Victor"
+    },
+    {
+        "manzana": "E2",
+        "lote": "14",
+        "propietario": "Vilca Figueroa Pedro"
+    },
+    {
+        "manzana": "E2",
+        "lote": "13",
+        "propietario": "Vilca Figueroa Pedro"
+    },
+    {
+        "manzana": "G1",
+        "lote": "1",
+        "propietario": "Calla Mita Lissette Sandra - Miller"
+    },
+    {
+        "manzana": "G1",
+        "lote": "22",
+        "propietario": "Calla Mita Lissette Sandra - Miller"
+    },
+    {
+        "manzana": "G1",
+        "lote": "4",
+        "propietario": "Figueroa Turpo Abraham - Miller"
+    },
+    {
+        "manzana": "G1",
+        "lote": "19",
+        "propietario": "Garcia Escalante Doris Dina - Miller"
+    },
+    {
+        "manzana": "J1",
+        "lote": "10",
+        "propietario": "Aparicio Paja Pilar"
+    },
+    {
+        "manzana": "J1",
+        "lote": "11",
+        "propietario": "Aparicio Paja Pilar"
+    },
+    {
+        "manzana": "J1",
+        "lote": "9",
+        "propietario": "Chire Quispe Fiorella"
+    },
+    {
+        "manzana": "J1",
+        "lote": "8",
+        "propietario": "Chire quispe Silvana"
+    },
+    {
+        "manzana": "J1",
+        "lote": "3",
+        "propietario": "Ciudad Quiroz Vanesa"
+    },
+    {
+        "manzana": "J1",
+        "lote": "22",
+        "propietario": "Fernandez Galdos Jose"
+    },
+    {
+        "manzana": "J1",
+        "lote": "14",
+        "propietario": "Lucay Rodriguez Jose"
+    },
+    {
+        "manzana": "J1",
+        "lote": "21",
+        "propietario": "Marquez Montes Zoila"
+    },
+    {
+        "manzana": "J1",
+        "lote": "13",
+        "propietario": "Medina Alvarez Julia"
+    },
+    {
+        "manzana": "J1",
+        "lote": "12",
+        "propietario": "Paja Espinoza Sofia"
+    },
+    {
+        "manzana": "J1",
+        "lote": "1",
+        "propietario": "Sanchez Sancho Ricardo"
+    },
+    {
+        "manzana": "J1",
+        "lote": "7",
+        "propietario": "Sucso Hilaro Jose"
+    },
+    {
+        "manzana": "J1",
+        "lote": "16",
+        "propietario": "Sucso Hilario Jose"
+    },
+    {
+        "manzana": "J1",
+        "lote": "2",
+        "propietario": "Tintaya Medina Veronica"
+    },
+    {
+        "manzana": "J1",
+        "lote": "6",
+        "propietario": "Valdivia Figueroa leonel"
+    },
+    {
+        "manzana": "J1",
+        "lote": "5",
+        "propietario": "Valdivia Villanueva Andrea"
+    },
+    {
+        "manzana": "J1",
+        "lote": "15",
+        "propietario": "Alejo Vera  Percy Jorge"
+    },
+    {
+        "manzana": "J1",
+        "lote": "4",
+        "propietario": "Villanueva chavez Armando"
+    },
+    {
+        "manzana": "J2",
+        "lote": "7",
+        "propietario": "Salazar Melgar Yasmi Teresa"
+    },
+    {
+        "manzana": "K1",
+        "lote": "2",
+        "propietario": "Apaza Ramirez Jania"
+    },
+    {
+        "manzana": "K1",
+        "lote": "3",
+        "propietario": "Apaza Ramirez Jania"
+    },
+    {
+        "manzana": "K1",
+        "lote": "4",
+        "propietario": "Apaza Ramirez Jania"
+    },
+    {
+        "manzana": "K1",
+        "lote": "20",
+        "propietario": "Apaza Ramirez Jania"
+    },
+    {
+        "manzana": "K1",
+        "lote": "19",
+        "propietario": "Apaza Ramirez Jania"
+    },
+    {
+        "manzana": "K1",
+        "lote": "8",
+        "propietario": "Benavides Nuñez Doris"
+    },
+    {
+        "manzana": "K1",
+        "lote": "12",
+        "propietario": "Chalco Figueroa Jackeline"
+    },
+    {
+        "manzana": "K1",
+        "lote": "1",
+        "propietario": "Corrales Diáz Luz de Maria"
+    },
+    {
+        "manzana": "K1",
+        "lote": "18",
+        "propietario": "Fuentes Durand Yolanda"
+    },
+    {
+        "manzana": "K1",
+        "lote": "22",
+        "propietario": "Gomez Sanchez Barbara"
+    },
+    {
+        "manzana": "K1",
+        "lote": "7",
+        "propietario": "Huaychani Pozo Diego Alex"
+    },
+    {
+        "manzana": "K1",
+        "lote": "16",
+        "propietario": "Ito Luque Laura Monica"
+    },
+    {
+        "manzana": "K1",
+        "lote": "9",
+        "propietario": "Lajo Apaza Arnaldo Vidal"
+    },
+    {
+        "manzana": "K1",
+        "lote": "14",
+        "propietario": "Lajo Apaza Arnaldo Vidal"
+    },
+    {
+        "manzana": "K1",
+        "lote": "15",
+        "propietario": "Pari Taco Marisol"
+    },
+    {
+        "manzana": "K1",
+        "lote": "5",
+        "propietario": "Pari Torres Pedro Oscar"
+    },
+    {
+        "manzana": "K1",
+        "lote": "11",
+        "propietario": "Peña Huanca Liz Victoria"
+    },
+    {
+        "manzana": "K1",
+        "lote": "17",
+        "propietario": "Perez Fuentes Gerald"
+    },
+    {
+        "manzana": "K1",
+        "lote": "6",
+        "propietario": "Peres Fuentes Yanses"
+    },
+    {
+        "manzana": "K1",
+        "lote": "10",
+        "propietario": "Quequezana urday Karina"
+    },
+    {
+        "manzana": "K1",
+        "lote": "13",
+        "propietario": "Urday Kgorimaya Wilson"
+    },
+    {
+        "manzana": "K1",
+        "lote": "21",
+        "propietario": "Peralta Luna Casiano"
+    },
+    {
+        "manzana": "M1",
+        "lote": "10",
+        "propietario": "Ccosaña Huillca Carmen"
+    },
+    {
+        "manzana": "M1",
+        "lote": "11",
+        "propietario": "Ccosaña Huillca Vanesa"
+    },
+    {
+        "manzana": "M1",
+        "lote": "8",
+        "propietario": "Iquiapaza Vargas Rober"
+    },
+    {
+        "manzana": "M1",
+        "lote": "12",
+        "propietario": "Luayza Rios Felipe"
+    },
+    {
+        "manzana": "M1",
+        "lote": "6",
+        "propietario": "Marquez Montes Cecilia"
+    },
+    {
+        "manzana": "M1",
+        "lote": "5",
+        "propietario": "Perez Figueroa Alessandra"
+    },
+    {
+        "manzana": "M1",
+        "lote": "2",
+        "propietario": "Portugal Uchasara Marco"
+    },
+    {
+        "manzana": "M1",
+        "lote": "17",
+        "propietario": "Quilla Iquiapaza Reyna"
+    },
+    {
+        "manzana": "M1",
+        "lote": "7",
+        "propietario": "Quilla Iquiapaza Reyna"
+    },
+    {
+        "manzana": "M1",
+        "lote": "16",
+        "propietario": "Quilla Iquiapaza Reyna"
+    },
+    {
+        "manzana": "M1",
+        "lote": "1",
+        "propietario": "Rivera Chua de Montes Angelica"
+    },
+    {
+        "manzana": "M1",
+        "lote": "3",
+        "propietario": "Salinas Ccori Miguel"
+    },
+    {
+        "manzana": "M1",
+        "lote": "22",
+        "propietario": "Tagle Becerra Betsabeth"
+    },
+    {
+        "manzana": "M1",
+        "lote": "21",
+        "propietario": "Uchasara Vda. De Portugal Cristina"
+    },
+    {
+        "manzana": "M1",
+        "lote": "4",
+        "propietario": "Valencia Budiel Jesus"
+    },
+    {
+        "manzana": "M1",
+        "lote": "18",
+        "propietario": "Valencia Virruela Erika"
+    },
+    {
+        "manzana": "M1",
+        "lote": "19",
+        "propietario": "Valencia Virrueta Ferly"
+    },
+    {
+        "manzana": "M1",
+        "lote": "15",
+        "propietario": "Vargas de Iquiapaza Florencia"
+    },
+    {
+        "manzana": "M1",
+        "lote": "20",
+        "propietario": "Vilca Arhuiri Victor"
+    },
+    {
+        "manzana": "M1",
+        "lote": "13",
+        "propietario": "Yupa Iquiapaza Cristian"
+    },
+    {
+        "manzana": "M1",
+        "lote": "9",
+        "propietario": "Yupa Iquiapaza Maribel"
+    },
+    {
+        "manzana": "M1",
+        "lote": "14",
+        "propietario": "Yupa Iquiapaza Maribel"
+    },
+    {
+        "manzana": "N",
+        "lote": "1",
+        "propietario": "PINTO VALDIVIA JUA JOSE"
+    },
+    {
+        "manzana": "N",
+        "lote": "2",
+        "propietario": "PINTO VALDIVIA JUA JOSE"
+    },
+    {
+        "manzana": "N",
+        "lote": "3",
+        "propietario": "VALDIVIA VELASQUEZ NADINE ISABEL"
+    },
+    {
+        "manzana": "N",
+        "lote": "20",
+        "propietario": "VALDIVIA VELASQUEZ NADINE ISABEL"
+    },
+    {
+        "manzana": "N",
+        "lote": "4",
+        "propietario": "POLANCO CACERES RENZO AGUSTO"
+    },
+    {
+        "manzana": "N",
+        "lote": "5",
+        "propietario": "POLANCO CACERES RENZO AGUSTO"
+    },
+    {
+        "manzana": "N",
+        "lote": "6",
+        "propietario": "POLANCO CACERES RENZO AGUSTO"
+    },
+    {
+        "manzana": "N",
+        "lote": "7",
+        "propietario": "JUSTO JUSTO JAIME"
+    },
+    {
+        "manzana": "N",
+        "lote": "8",
+        "propietario": "QUISPE SUCA CRIZOGENA"
+    },
+    {
+        "manzana": "N",
+        "lote": "9",
+        "propietario": "CHAVEZ PINTO GREGORIO GOVI"
+    },
+    {
+        "manzana": "N",
+        "lote": "10",
+        "propietario": "ARANA ARIZABAL LORENZO FAUSTINO"
+    },
+    {
+        "manzana": "N",
+        "lote": "11",
+        "propietario": "ARANA ARIZABAL LORENZO FAUSTINO"
+    },
+    {
+        "manzana": "N",
+        "lote": "12",
+        "propietario": "ZEBALLOS ARANA JOSE LUIS"
+    },
+    {
+        "manzana": "N",
+        "lote": "13",
+        "propietario": "ARANA ORTIZ JHON GUSTAVO"
+    },
+    {
+        "manzana": "N",
+        "lote": "14",
+        "propietario": "ZEVALLOS VEGA LUIS DANIEL"
+    },
+    {
+        "manzana": "N",
+        "lote": "15",
+        "propietario": "ESTOFANERO ERICK FERNANDO"
+    },
+    {
+        "manzana": "N",
+        "lote": "16",
+        "propietario": "RAMOS CHOQUE NANCY"
+    },
+    {
+        "manzana": "N",
+        "lote": "17",
+        "propietario": "PIZARRO CORDOVA JUAN CLIMACO"
+    },
+    {
+        "manzana": "N",
+        "lote": "18",
+        "propietario": "GARATE CORDOVA ELVIS NICOLAS"
+    },
+    {
+        "manzana": "N",
+        "lote": "19",
+        "propietario": "CORDOVA ESPEZUSA ARGELIO ANGEL"
+    },
+    {
+        "manzana": "N",
+        "lote": "21",
+        "propietario": "PINTO VALDIVIA DANIELA GIULIANA"
+    },
+    {
+        "manzana": "N",
+        "lote": "22",
+        "propietario": "PINTO VALDIVIA DANIELA GIULIANA"
+    },
+    {
+        "manzana": "N1",
+        "lote": "22",
+        "propietario": "Arana Gomez Flor de Maria"
+    },
+    {
+        "manzana": "N1",
+        "lote": "11",
+        "propietario": "Budiel Salguero May"
+    },
+    {
+        "manzana": "N1",
+        "lote": "15",
+        "propietario": "Cahui Quico Maria"
+    },
+    {
+        "manzana": "N1",
+        "lote": "17",
+        "propietario": "Estofanero Quispe Sarai"
+    },
+    {
+        "manzana": "N1",
+        "lote": "16",
+        "propietario": "Estofanero Quispe Sarai"
+    },
+    {
+        "manzana": "N1",
+        "lote": "7",
+        "propietario": "Flores Flores Eloy"
+    },
+    {
+        "manzana": "N1",
+        "lote": "8",
+        "propietario": "Flores Flores Maximo"
+    },
+    {
+        "manzana": "N1",
+        "lote": "6",
+        "propietario": "Hurtado Cuba Ricardo"
+    },
+    {
+        "manzana": "N1",
+        "lote": "4",
+        "propietario": "Mendoza Delgado Wilbert"
+    },
+    {
+        "manzana": "N1",
+        "lote": "9",
+        "propietario": "Mendoza Tapia Deyne"
+    },
+    {
+        "manzana": "N1",
+        "lote": "14",
+        "propietario": "Mendoza Tapia Deyne"
+    },
+    {
+        "manzana": "N1",
+        "lote": "10",
+        "propietario": "Mendoza Tapia Deyne"
+    },
+    {
+        "manzana": "N1",
+        "lote": "13",
+        "propietario": "Mendoza Tapia Deyne"
+    },
+    {
+        "manzana": "N1",
+        "lote": "19",
+        "propietario": "Mendoza Valdivia Enna Isabel"
+    },
+    {
+        "manzana": "N1",
+        "lote": "2",
+        "propietario": "Quevedo Ezquivel Elisa"
+    },
+    {
+        "manzana": "N1",
+        "lote": "5",
+        "propietario": "Quilca Pimani Brissa"
+    },
+    {
+        "manzana": "N1",
+        "lote": "18",
+        "propietario": "Quilca Pimani Brissa"
+    },
+    {
+        "manzana": "N1",
+        "lote": "3",
+        "propietario": "Quiroz Minchola Vilma"
+    },
+    {
+        "manzana": "N1",
+        "lote": "21",
+        "propietario": "Quisocala Quisocala Maria"
+    },
+    {
+        "manzana": "N1",
+        "lote": "20",
+        "propietario": "Quispe Huichi Edgar"
+    },
+    {
+        "manzana": "N1",
+        "lote": "1",
+        "propietario": "Sanchez Sancho Ruth"
+    },
+    {
+        "manzana": "N1",
+        "lote": "12",
+        "propietario": "Taruca flores Helbert Daniel"
+    },
+    {
+        "manzana": "O1",
+        "lote": "8",
+        "propietario": "Aranibar Vilca Vicente"
+    },
+    {
+        "manzana": "O1",
+        "lote": "17",
+        "propietario": "Arredondo Turpo Maricela"
+    },
+    {
+        "manzana": "O1",
+        "lote": "11",
+        "propietario": "Bravo Molina Carlos"
+    },
+    {
+        "manzana": "O1",
+        "lote": "15",
+        "propietario": "Cuenta Rojas Julio"
+    },
+    {
+        "manzana": "O1",
+        "lote": "5",
+        "propietario": "Herrera Diaz Caridad"
+    },
+    {
+        "manzana": "O1",
+        "lote": "4",
+        "propietario": "Herrera Diaz Erick"
+    },
+    {
+        "manzana": "O1",
+        "lote": "1",
+        "propietario": "Kamimoto Bazan Ami"
+    },
+    {
+        "manzana": "O1",
+        "lote": "22",
+        "propietario": "Kamimoto Bazan Ami"
+    },
+    {
+        "manzana": "O1",
+        "lote": "2",
+        "propietario": "Kamimoto Bazan Ami"
+    },
+    {
+        "manzana": "O1",
+        "lote": "21",
+        "propietario": "Kamimoto Bazan Ami"
+    },
+    {
+        "manzana": "O1",
+        "lote": "3",
+        "propietario": "Kamimoto Bazan Ami"
+    },
+    {
+        "manzana": "O1",
+        "lote": "20",
+        "propietario": "Kamimoto Bazan Ami"
+    },
+    {
+        "manzana": "O1",
+        "lote": "19",
+        "propietario": "Kamimoto Bazan Ami"
+    },
+    {
+        "manzana": "O1",
+        "lote": "18",
+        "propietario": "Kamimoto Rodriguez Augusto"
+    },
+    {
+        "manzana": "O1",
+        "lote": "10",
+        "propietario": "Luna Herrera Beatriz"
+    },
+    {
+        "manzana": "O1",
+        "lote": "12",
+        "propietario": "Martinez Chipana Jenny"
+    },
+    {
+        "manzana": "O1",
+        "lote": "13",
+        "propietario": "Menendez Luque Jhon"
+    },
+    {
+        "manzana": "O1",
+        "lote": "6",
+        "propietario": "Paredes Arias Javier"
+    },
+    {
+        "manzana": "O1",
+        "lote": "7",
+        "propietario": "Paredes Arias Javier"
+    },
+    {
+        "manzana": "O1",
+        "lote": "16",
+        "propietario": "Paredes Arias Javier"
+    },
+    {
+        "manzana": "O1",
+        "lote": "14",
+        "propietario": "Velarde Torres Cecilia"
+    },
+    {
+        "manzana": "O1",
+        "lote": "9",
+        "propietario": "Salas Quispe Carlos Alberto"
+    },
+    {
+        "manzana": "P",
+        "lote": "1",
+        "propietario": "Justina Ylaquijo de Maraza"
+    },
+    {
+        "manzana": "P",
+        "lote": "22",
+        "propietario": "Justina Ylaquijo de Maraza"
+    },
+    {
+        "manzana": "P",
+        "lote": "2",
+        "propietario": "Mariluz Maraza Ylaquijo"
+    },
+    {
+        "manzana": "P",
+        "lote": "10",
+        "propietario": "Yeni Maraza Ylaquijo"
+    },
+    {
+        "manzana": "P",
+        "lote": "11",
+        "propietario": "Yeni Maraza Ylaquijo"
+    },
+    {
+        "manzana": "P",
+        "lote": "3",
+        "propietario": "Salcedo Quispesivana Sandra Nancy"
+    },
+    {
+        "manzana": "P",
+        "lote": "4",
+        "propietario": "Zavala Diaz Frank Rene"
+    },
+    {
+        "manzana": "P",
+        "lote": "19",
+        "propietario": "Zavala Diaz Frank Rene"
+    },
+    {
+        "manzana": "P",
+        "lote": "5",
+        "propietario": "Valderrama Ballon Maria Elizabeth"
+    },
+    {
+        "manzana": "P",
+        "lote": "18",
+        "propietario": "Torres Valderrama Patricia Alicia"
+    },
+    {
+        "manzana": "P",
+        "lote": "9",
+        "propietario": "Calla Mita Lissette Sandra - Miller"
+    },
+    {
+        "manzana": "P",
+        "lote": "12",
+        "propietario": "Calla Mita Lissette Sandra - Miller"
+    },
+    {
+        "manzana": "P",
+        "lote": "21",
+        "propietario": "PAPINGO"
+    },
+    {
+        "manzana": "P",
+        "lote": "6",
+        "propietario": "Hugo Turpo"
+    },
+    {
+        "manzana": "P1",
+        "lote": "1",
+        "propietario": "Chura Mendoza Elizabeth"
+    },
+    {
+        "manzana": "P1",
+        "lote": "2",
+        "propietario": "Chura Mendoza Elizabeth"
+    },
+    {
+        "manzana": "P1",
+        "lote": "3",
+        "propietario": "Mamani Yucna Nayda"
+    },
+    {
+        "manzana": "P1",
+        "lote": "20",
+        "propietario": "Gomez Narrea Nury"
+    },
+    {
+        "manzana": "P1",
+        "lote": "4",
+        "propietario": "Vilca Zaco Willian"
+    },
+    {
+        "manzana": "P1",
+        "lote": "19",
+        "propietario": "Arela Zaco Juan Carlos"
+    },
+    {
+        "manzana": "P1",
+        "lote": "5",
+        "propietario": "Vilca Arhuire Francisco"
+    },
+    {
+        "manzana": "P1",
+        "lote": "18",
+        "propietario": "Vilca Zaco Paúl"
+    },
+    {
+        "manzana": "P1",
+        "lote": "6",
+        "propietario": "Narrea Motta Rosa"
+    },
+    {
+        "manzana": "P1",
+        "lote": "17",
+        "propietario": "Narrea Motta Rosa"
+    },
+    {
+        "manzana": "P1",
+        "lote": "7",
+        "propietario": "Flores Ramos Fernando"
+    },
+    {
+        "manzana": "P1",
+        "lote": "16",
+        "propietario": "Vargas Chuquicallata Guadalupe"
+    },
+    {
+        "manzana": "P1",
+        "lote": "8",
+        "propietario": "Flores Chavez José"
+    },
+    {
+        "manzana": "P1",
+        "lote": "15",
+        "propietario": "Flores Yucna Mónica"
+    },
+    {
+        "manzana": "P1",
+        "lote": "9",
+        "propietario": "Flores Yucna Mónica"
+    },
+    {
+        "manzana": "P1",
+        "lote": "14",
+        "propietario": "Flores Yucna Mónica"
+    },
+    {
+        "manzana": "P1",
+        "lote": "10",
+        "propietario": "Flores Yucna Mónica"
+    },
+    {
+        "manzana": "P1",
+        "lote": "13",
+        "propietario": "Flores Yucna Mónica"
+    },
+    {
+        "manzana": "P1",
+        "lote": "11",
+        "propietario": "Gonzales Huacasi Tereza"
+    },
+    {
+        "manzana": "P1",
+        "lote": "12",
+        "propietario": "Huaman Gonzales Angie"
+    },
+    {
+        "manzana": "P2",
+        "lote": "10",
+        "propietario": "REVILLA FERNANDEZ LLESHI"
+    },
+    {
+        "manzana": "P2",
+        "lote": "11",
+        "propietario": "REVILLA FERNANDEZ ARANTZA"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "11",
+        "propietario": "Alvares Diaz Verónica"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "9",
+        "propietario": "Campos Mares Cristian"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "7",
+        "propietario": "Chirinos Rosas Milagros"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "20",
+        "propietario": "Delgadillo Medina Irma"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "4",
+        "propietario": "Delgado Salamanca Cesar"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "19",
+        "propietario": "Delgado Salamanca Cesar"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "5",
+        "propietario": "Delgado Salamanca Cesar"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "18",
+        "propietario": "Delgado Salamanca Cesar"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "6",
+        "propietario": "Delgado Salamanca Cesar"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "17",
+        "propietario": "Delgado Salamanca Cesar"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "1",
+        "propietario": "Laura Hancco Wilfredo"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "2",
+        "propietario": "Lazo Rojas Ramiro"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "21",
+        "propietario": "Lazo Rojas Ramiro"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "16",
+        "propietario": "Mares Perahilla José"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "8",
+        "propietario": "Mares Talavera Eduardo"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "15",
+        "propietario": "Mares Talavera Jorge"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "14",
+        "propietario": "Mares Talavera Mercilú"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "13",
+        "propietario": "Mares Talavera Mercilú"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "10",
+        "propietario": "Mares Talavera Rosa"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "12",
+        "propietario": "Mendoza Huacasi Oscar"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "22",
+        "propietario": "Quispe Rivera Anmilda"
+    },
+    {
+        "manzana": "Q1",
+        "lote": "3",
+        "propietario": "Vega Calderon Wendy"
+    },
+    {
+        "manzana": "R1",
+        "lote": "7",
+        "propietario": "Alvarez Delgado Eladio Selso"
+    },
+    {
+        "manzana": "R1",
+        "lote": "17",
+        "propietario": "Aparicio Penaloza Carlos"
+    },
+    {
+        "manzana": "R1",
+        "lote": "14",
+        "propietario": "Chavez Sosa Hernan"
+    },
+    {
+        "manzana": "R1",
+        "lote": "3",
+        "propietario": "Flores Yucra Madeleine"
+    },
+    {
+        "manzana": "R1",
+        "lote": "20",
+        "propietario": "Flores Yucra Madeleine"
+    },
+    {
+        "manzana": "R1",
+        "lote": "4",
+        "propietario": "Flores Yucra Madeleine"
+    },
+    {
+        "manzana": "R1",
+        "lote": "13",
+        "propietario": "Llacma Infa Blanca"
+    },
+    {
+        "manzana": "R1",
+        "lote": "12",
+        "propietario": "Llacma Infa Blanca"
+    },
+    {
+        "manzana": "R1",
+        "lote": "10",
+        "propietario": "Llacma Infa Florencio"
+    },
+    {
+        "manzana": "R1",
+        "lote": "11",
+        "propietario": "Llacma Infa Florencio"
+    },
+    {
+        "manzana": "R1",
+        "lote": "15",
+        "propietario": "Machaca Mendoza Kimberly"
+    },
+    {
+        "manzana": "R1",
+        "lote": "1",
+        "propietario": "Manrique Diaz Alfredo"
+    },
+    {
+        "manzana": "R1",
+        "lote": "22",
+        "propietario": "Manrique Diaz Alfredo"
+    },
+    {
+        "manzana": "R1",
+        "lote": "9",
+        "propietario": "Medina Alcazar Nayder"
+    },
+    {
+        "manzana": "R1",
+        "lote": "2",
+        "propietario": "Nina Rojas Jonathan"
+    },
+    {
+        "manzana": "R1",
+        "lote": "6",
+        "propietario": "Paja Espinoza Sofia"
+    },
+    {
+        "manzana": "R1",
+        "lote": "19",
+        "propietario": "Puma Flores Heidy"
+    },
+    {
+        "manzana": "R1",
+        "lote": "18",
+        "propietario": "Puma Flores Heidy"
+    },
+    {
+        "manzana": "R1",
+        "lote": "16",
+        "propietario": "Quispe Panqui Nestor"
+    },
+    {
+        "manzana": "R1",
+        "lote": "21",
+        "propietario": "Reategui Quispe Pamela"
+    },
+    {
+        "manzana": "R1",
+        "lote": "5",
+        "propietario": "Gomez Herrera Giovanni"
+    },
+    {
+        "manzana": "R1",
+        "lote": "8",
+        "propietario": "Vilca Anhuiri Julia"
+    },
+    {
+        "manzana": "S1",
+        "lote": "22",
+        "propietario": "Anco Beltran Elizabeth"
+    },
+    {
+        "manzana": "S1",
+        "lote": "2",
+        "propietario": "Castro Sanchez Javier"
+    },
+    {
+        "manzana": "S1",
+        "lote": "21",
+        "propietario": "Castro Sanchez Javier"
+    },
+    {
+        "manzana": "S1",
+        "lote": "13",
+        "propietario": "Chavez Menacho Cleopatra"
+    },
+    {
+        "manzana": "S1",
+        "lote": "12",
+        "propietario": "Chavez Menacho Cleopatra"
+    },
+    {
+        "manzana": "S1",
+        "lote": "11",
+        "propietario": "De la Cruz Hinojoza Ines Milagros"
+    },
+    {
+        "manzana": "S1",
+        "lote": "14",
+        "propietario": "Huacso Lopinta Carlos"
+    },
+    {
+        "manzana": "S1",
+        "lote": "10",
+        "propietario": "Mayta Pilco María"
+    },
+    {
+        "manzana": "S1",
+        "lote": "8",
+        "propietario": "Parra Parra Pedro"
+    },
+    {
+        "manzana": "S1",
+        "lote": "15",
+        "propietario": "Parra Parra Pedro"
+    },
+    {
+        "manzana": "S1",
+        "lote": "9",
+        "propietario": "Quispe Huchi Edgar"
+    },
+    {
+        "manzana": "S1",
+        "lote": "7",
+        "propietario": "Rimachi Quispe Mery"
+    },
+    {
+        "manzana": "S1",
+        "lote": "16",
+        "propietario": "Rodriguez Carnero Rosa María"
+    },
+    {
+        "manzana": "S1",
+        "lote": "16",
+        "propietario": "Rodriguez Mamani Victor"
+    },
+    {
+        "manzana": "S1",
+        "lote": "19",
+        "propietario": "Sanchez Montenegro Andrea"
+    },
+    {
+        "manzana": "S1",
+        "lote": "5",
+        "propietario": "Sanchez Montenegro Andrea"
+    },
+    {
+        "manzana": "S1",
+        "lote": "18",
+        "propietario": "Sanchez Montenegro Andrea"
+    },
+    {
+        "manzana": "S1",
+        "lote": "3",
+        "propietario": "Sanchez Montenegro Lizeth"
+    },
+    {
+        "manzana": "S1",
+        "lote": "20",
+        "propietario": "Sanchez Montenegro Lizeth"
+    },
+    {
+        "manzana": "S1",
+        "lote": "4",
+        "propietario": "Sanchez Montenegro Lizeth"
+    },
+    {
+        "manzana": "S1",
+        "lote": "6",
+        "propietario": "Soria Cruz Daria"
+    },
+    {
+        "manzana": "S1",
+        "lote": "17",
+        "propietario": "Soria Cruz Daria"
+    },
+    {
+        "manzana": "S1",
+        "lote": "1",
+        "propietario": "Calderon Huamani Lino"
+    },
+    {
+        "manzana": "T",
+        "lote": "1",
+        "propietario": "Huaracha Quispe Deny Jesus Olinda"
+    },
+    {
+        "manzana": "T1",
+        "lote": "1",
+        "propietario": "Abrigo Challa Rosa"
+    },
+    {
+        "manzana": "T1",
+        "lote": "2",
+        "propietario": "Abrigo Challa Mercedes"
+    },
+    {
+        "manzana": "T1",
+        "lote": "22",
+        "propietario": "Abrigo Challa Donoban"
+    },
+    {
+        "manzana": "T1",
+        "lote": "3",
+        "propietario": "Huamani Mollo Yeldi Victoria"
+    },
+    {
+        "manzana": "T1",
+        "lote": "20",
+        "propietario": "Huamani Mollo Yeldi Victoria"
+    },
+    {
+        "manzana": "T1",
+        "lote": "4",
+        "propietario": "Pareja Rrodriguez Juan"
+    },
+    {
+        "manzana": "T1",
+        "lote": "5",
+        "propietario": "Chavez Lizarraga Rodolfo"
+    },
+    {
+        "manzana": "T1",
+        "lote": "6",
+        "propietario": "Rodriguez Chavez Willy"
+    },
+    {
+        "manzana": "T1",
+        "lote": "17",
+        "propietario": "Chevez Mendiz Oscar"
+    },
+    {
+        "manzana": "T1",
+        "lote": "18",
+        "propietario": "Rodriguez Chavez Stefany"
+    },
+    {
+        "manzana": "T1",
+        "lote": "7",
+        "propietario": "Morales  Mamani Betzabeth"
+    },
+    {
+        "manzana": "T1",
+        "lote": "8",
+        "propietario": "Morales  Mamani Betzabeth"
+    },
+    {
+        "manzana": "T1",
+        "lote": "16",
+        "propietario": "Morales  Mamani Betzabeth"
+    },
+    {
+        "manzana": "T1",
+        "lote": "9",
+        "propietario": "Puma Najar Mercy"
+    },
+    {
+        "manzana": "T1",
+        "lote": "14",
+        "propietario": "Puma Najar Betania"
+    },
+    {
+        "manzana": "T1",
+        "lote": "10",
+        "propietario": "Aguirre Villalba Melissa"
+    },
+    {
+        "manzana": "T1",
+        "lote": "11",
+        "propietario": "Flores Mariño Liz"
+    },
+    {
+        "manzana": "T1",
+        "lote": "12",
+        "propietario": "Chalco Figueroa Lorena"
+    },
+    {
+        "manzana": "T1",
+        "lote": "13",
+        "propietario": "Quispe Taco Dedy"
+    },
+    {
+        "manzana": "W1",
+        "lote": "5",
+        "propietario": "Alangia Roa Ana Cecilia"
+    },
+    {
+        "manzana": "W1",
+        "lote": "1",
+        "propietario": "Moron Luayza Rosa"
+    },
+    {
+        "manzana": "W1",
+        "lote": "14",
+        "propietario": "Moron Luayza Rosa"
+    },
+    {
+        "manzana": "W1",
+        "lote": "13",
+        "propietario": "Moron Luayza Rosa"
+    },
+    {
+        "manzana": "W1",
+        "lote": "2",
+        "propietario": "Murillo Vda. De Zambrano Julia"
+    },
+    {
+        "manzana": "W1",
+        "lote": "4",
+        "propietario": "Pachari Cutipa Willy"
+    },
+    {
+        "manzana": "W1",
+        "lote": "7",
+        "propietario": "Quispe Huichi Maria"
+    },
+    {
+        "manzana": "W1",
+        "lote": "8",
+        "propietario": "Quispe Huichi Maria"
+    },
+    {
+        "manzana": "W1",
+        "lote": "9",
+        "propietario": "Quispe Huichi Maria"
+    },
+    {
+        "manzana": "W1",
+        "lote": "6",
+        "propietario": "Rodriges de la Cruz Laura"
+    },
+    {
+        "manzana": "W1",
+        "lote": "10",
+        "propietario": "Tingo Molleapaza Cesar"
+    },
+    {
+        "manzana": "W1",
+        "lote": "12",
+        "propietario": "Zambrano Murillo Edwar"
+    },
+    {
+        "manzana": "W1",
+        "lote": "11",
+        "propietario": "Zambrano Murillo Jose"
+    },
+    {
+        "manzana": "W1",
+        "lote": "3",
+        "propietario": "Zambrano Murillo Karolina"
+    },
+    {
+        "manzana": "X1",
+        "lote": "13",
+        "propietario": "Barriga Aluano Erika"
+    },
+    {
+        "manzana": "X1",
+        "lote": "10",
+        "propietario": "Barriga Mamani Hugo"
+    },
+    {
+        "manzana": "X1",
+        "lote": "17",
+        "propietario": "Bermester Leguas Luis"
+    },
+    {
+        "manzana": "X1",
+        "lote": "20",
+        "propietario": "Castillo Yanqui Evangelina"
+    },
+    {
+        "manzana": "X1",
+        "lote": "6",
+        "propietario": "Choque Montoya Daniel"
+    },
+    {
+        "manzana": "X1",
+        "lote": "14",
+        "propietario": "Maceda Moroco Graciela"
+    },
+    {
+        "manzana": "X1",
+        "lote": "5",
+        "propietario": "Mamani Arana Pablo"
+    },
+    {
+        "manzana": "X1",
+        "lote": "8",
+        "propietario": "Paredes Pinto Evelyn"
+    },
+    {
+        "manzana": "X1",
+        "lote": "9",
+        "propietario": "Paredes Pinto Margaret"
+    },
+    {
+        "manzana": "X1",
+        "lote": "15",
+        "propietario": "Paredes Valdivia Ronal"
+    },
+    {
+        "manzana": "X1",
+        "lote": "11",
+        "propietario": "Parqui Cahuina Cecilia"
+    },
+    {
+        "manzana": "X1",
+        "lote": "21",
+        "propietario": "Puma Fuentes Alejandro"
+    },
+    {
+        "manzana": "X1",
+        "lote": "3",
+        "propietario": "Puma Fuentes Ingri"
+    },
+    {
+        "manzana": "X1",
+        "lote": "1",
+        "propietario": "Quispe Rivera Herlinda"
+    },
+    {
+        "manzana": "X1",
+        "lote": "7",
+        "propietario": "Roca Torres Renato"
+    },
+    {
+        "manzana": "X1",
+        "lote": "2",
+        "propietario": "Rojas Reaño Jessica"
+    },
+    {
+        "manzana": "X1",
+        "lote": "4",
+        "propietario": "Salas Quispe Delia"
+    },
+    {
+        "manzana": "X1",
+        "lote": "16",
+        "propietario": "Salazar Melgar Yasmi"
+    },
+    {
+        "manzana": "X1",
+        "lote": "12",
+        "propietario": "Toledo Centeno Dina"
+    },
+    {
+        "manzana": "X1",
+        "lote": "22",
+        "propietario": "Vera Tito Jean Carlos"
+    },
+    {
+        "manzana": "X1",
+        "lote": "18",
+        "propietario": "Hincho Choque Diana Victoria"
+    },
+    {
+        "manzana": "Y",
+        "lote": "2",
+        "propietario": "Balcazar Obeso Nestor"
+    },
+    {
+        "manzana": "Y",
+        "lote": "1",
+        "propietario": "Cruz Rivera Claudia"
+    },
+    {
+        "manzana": "Y",
+        "lote": "4",
+        "propietario": "Cruz Rivera Gabriela"
+    },
+    {
+        "manzana": "Y",
+        "lote": "22",
+        "propietario": "Dias Cruz Estefano"
+    },
+    {
+        "manzana": "Y",
+        "lote": "21",
+        "propietario": "Diaz Cruz Giancarlo"
+    },
+    {
+        "manzana": "Y",
+        "lote": "6",
+        "propietario": "Idme Gutierrez Corina"
+    },
+    {
+        "manzana": "Y",
+        "lote": "20",
+        "propietario": "Orihuela Abril Claudia"
+    },
+    {
+        "manzana": "Y",
+        "lote": "3",
+        "propietario": "Soto Valdivia Ana Maria"
+    },
+    {
+        "manzana": "Y",
+        "lote": "19",
+        "propietario": "Valdivia Gonzales Angelo"
+    },
+    {
+        "manzana": "Y",
+        "lote": "17",
+        "propietario": "Valdivia Palacios Antonio"
+    },
+    {
+        "manzana": "Y",
+        "lote": "5",
+        "propietario": "Vizcarra de Moreno Janet"
+    },
+    {
+        "manzana": "Y",
+        "lote": "18",
+        "propietario": "Vizcarra de Moreno Janet"
+    },
+    {
+        "manzana": "Y",
+        "lote": "9",
+        "propietario": "Venegas Vargas Sugey"
+    },
+    {
+        "manzana": "Y",
+        "lote": "7",
+        "propietario": "Venegas Vargas Nereyda"
+    },
+    {
+        "manzana": "Y",
+        "lote": "8",
+        "propietario": "Venegas Vargas Nereyda"
+    },
+    {
+        "manzana": "Y",
+        "lote": "16",
+        "propietario": "Venegas Vargas Nereyda"
+    },
+    {
+        "manzana": "Y",
+        "lote": "15",
+        "propietario": "Hito Hurtado Junior Rafael"
+    },
+    {
+        "manzana": "Y",
+        "lote": "14",
+        "propietario": "Velasquez Garcia Ruth Paola"
+    },
+    {
+        "manzana": "Y",
+        "lote": "12",
+        "propietario": "Venegas Vargas Nereyda"
+    },
+    {
+        "manzana": "Y",
+        "lote": "10",
+        "propietario": "Vilca Quispe Marcelino"
+    },
+    {
+        "manzana": "Y",
+        "lote": "11",
+        "propietario": "Vilca Quispe Marcelino"
+    },
+    {
+        "manzana": "Y",
+        "lote": "13",
+        "propietario": "Vilca Quispe Marcelino"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "9",
+        "propietario": "Aleman Cornejo Virginia"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "8",
+        "propietario": "Carpio Cahuana Peter"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "15",
+        "propietario": "Carpio Cahuana Peter"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "4",
+        "propietario": "Galindo Valencia Diego"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "11",
+        "propietario": "Huaman Tumi Neyer"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "12",
+        "propietario": "Huaman Tumi Neyer"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "7",
+        "propietario": "Lupe Lopez Enrique"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "1",
+        "propietario": "Morales Alvarez Franchesca"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "22",
+        "propietario": "Morales Alvarez Andre"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "2",
+        "propietario": "Morales Arce Elan"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "21",
+        "propietario": "Morales Arce Elan"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "3",
+        "propietario": "Pampa Carrillo Jean Pool"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "14",
+        "propietario": "Peralta Valentin Andrea"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "13",
+        "propietario": "Quispe Duran Eloy"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "17",
+        "propietario": "Rodriguez Vargas Nidia"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "6",
+        "propietario": "Sejje Luque Simon"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "16",
+        "propietario": "Suico Cueva Juan Cruz"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "5",
+        "propietario": "Valencia Quispitupac Beatriz"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "19",
+        "propietario": "Valencia Quispitupac Jessica"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "10",
+        "propietario": "Valenzuela Anahui Faustina"
+    },
+    {
+        "manzana": "Y1",
+        "lote": "18",
+        "propietario": "Villalta Vilca Geraldo"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "2",
+        "propietario": "Quilla Arizaca Ana maria"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "3",
+        "propietario": "Quilla Arizaca Ana maria"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "20",
+        "propietario": "Quilla Arizaca Ana maria"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "21",
+        "propietario": "Cervantes Apaza Lincoln"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "1",
+        "propietario": "Cervantes Apaza Miguel"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "22",
+        "propietario": "Cervantes Apaza Miguel"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "18",
+        "propietario": "Coro Zela Marisol"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "17",
+        "propietario": "Huamani gutierrez Maria"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "16",
+        "propietario": "Huamani Mollo Ernesto"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "15",
+        "propietario": "Huamani Mollo Marco"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "6",
+        "propietario": "Mamani Pacsi Ruth"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "10",
+        "propietario": "Mendoza Quellcca Libia"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "13",
+        "propietario": "Mendoza Quellcca Libia"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "12",
+        "propietario": "Mendoza Quellcca Libia"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "4",
+        "propietario": "Miranda de Gutierrez Eva"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "19",
+        "propietario": "Miranda de Gutierrez Eva"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "9",
+        "propietario": "Montes Apaza Francisca"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "5",
+        "propietario": "Peñaloza Baca Alicia"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "8",
+        "propietario": "Quispe Huiche Ana"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "11",
+        "propietario": "YNCA ROCA YANQUE MARI LUZ"
+    },
+    {
+        "manzana": "Z1",
+        "lote": "7",
+        "propietario": "Yeldi huamani Mollo"
+    },
+    {
+        "manzana": "Ñ",
+        "lote": "11",
+        "propietario": "Gomez Sanchez Jessica"
+    },
+    {
+        "manzana": "Ñ",
+        "lote": "12",
+        "propietario": "Maldonado Calizaya Maria"
+    }
+]
