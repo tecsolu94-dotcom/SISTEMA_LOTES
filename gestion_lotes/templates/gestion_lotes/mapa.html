@@ -7,26 +7,31 @@
     <style>
         /* 📱 Ajustes exclusivos para Celulares (Pantallas menores a 768px) */
 @media (max-width: 768px) {
-    body {
-        display: flex;
-        flex-direction: column-reverse; /* Envía el menú abajo y el mapa arriba */
-    }
-   #sidebar {
-    display: none; /* Oculto por defecto */
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    z-index: 1000;
-    background: rgba(0,0,0,0.9);
-}
-
-#sidebar.active {
-    display: block; /* Solo aparece cuando activamos la clase */
-}
+    /* 1. El mapa ocupa toda la pantalla del teléfono por defecto */
     #map-container {
         width: 100%;
-        height: 55vh; /* El mapa se queda en la mitad superior */
+        height: 100vh;
         margin-left: 0;
+    }
+
+    /* 2. El panel lateral empieza OCULTO y flota como un cajón */
+    #sidebar {
+        display: none; /* Oculto por defecto */
+        position: fixed;
+        top: 0; 
+        left: 0;
+        width: 85%; /* Ocupa el 85% del ancho de tu celular al abrirse */
+        height: 100vh;
+        z-index: 10000;
+        background: #1a1a1a;
+        overflow-y: auto; /* Permite deslizar si hay muchos resultados */
+        padding-top: 60px; /* Dejamos un espacio arriba para no tapar el botón ☰ */
+        box-shadow: 5px 0 20px rgba(0,0,0,0.8);
+    }
+
+    /* 3. Cuando el JavaScript activa el menú, se vuelve visible */
+    #sidebar.active {
+        display: block !important;
     }
 }
         body {
@@ -97,7 +102,9 @@
     </style>
 </head>
 <body>
-    
+     <button id="btnMenu" style="position: absolute; top: 15px; left: 15px; z-index: 1001; background: #2c3e50; color: white; padding: 10px; border: none; border-radius: 5px; font-size: 20px;">
+    ☰
+</button>
 <div id="modal-edicion" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 2000; justify-content: center; align-items: center; backdrop-filter: blur(2px);">
     <div style="background: #1e1e1e; width: 350px; padding: 25px; border-radius: 12px; border: 1px solid #444; box-shadow: 0 10px 25px rgba(0,0,0,0.5); color: #fff;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
@@ -130,12 +137,12 @@
     </div>
     
 </div>
+       
     <div id="sidebar">
+
         <h2>VILLTECC Maps</h2>
         <!-- Botón Hamburguesa -->
-<button id="btnMenu" style="position: absolute; top: 15px; left: 15px; z-index: 1001; background: #2c3e50; color: white; padding: 10px; border: none; border-radius: 5px; font-size: 20px;">
-    ☰
-</button>
+
         <button onclick="window.location.href='/api/descargar-excel/'" style="width: 100%; margin-bottom: 20px; padding: 12px; background: #27ae60; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 8px; transition: 0.2s;" onmouseover="this.style.background='#219653'" onmouseout="this.style.background='#27ae60'">
     📊 Descargar Reporte en Excel
 </button>
@@ -166,6 +173,22 @@
         <canvas id="mapaCanvas"></canvas>
     </div>
 <script>
+function toggleMenu() {
+    const sidebar = document.getElementById('sidebar');
+    const btn = document.getElementById('btnMenu');
+    
+    // Abre o cierra el panel lateral
+    sidebar.classList.toggle('active');
+    
+    // Cambia el diseño del botón según si está abierto o cerrado
+    if (sidebar.classList.contains('active')) {
+        btn.innerHTML = '✖';
+        btn.style.background = '#c0392b'; // Rojo (Cerrar)
+    } else {
+        btn.innerHTML = '☰';
+        btn.style.background = '#2c3e50'; // Azul oscuro (Abrir)
+    }
+}
     // Variable para guardar qué lotes deben resaltar en el Canvas
 let lotesDestacados = [];
  // Variable global para guardar los datos temporalmente
