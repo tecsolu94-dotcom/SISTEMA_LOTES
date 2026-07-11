@@ -11,16 +11,18 @@
         display: flex;
         flex-direction: column-reverse; /* Envía el menú abajo y el mapa arriba */
     }
-    #sidebar {
-        width: 100%;
-        height: 48vh; /* Ocupa casi la mitad inferior */
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        z-index: 1000;
-        overflow-y: auto; /* ⚡ Permite deslizar la lista de resultados suavemente con el pulgar */
-        -webkit-overflow-scrolling: touch; /* Scroll suave estilo nativo en iOS */
-    }
+   #sidebar {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1000;
+    background: rgba(0,0,0,0.9);
+}
+
+#sidebar.active {
+    display: block; /* Solo aparece cuando activamos la clase */
+}
     #map-container {
         width: 100%;
         height: 55vh; /* El mapa se queda en la mitad superior */
@@ -130,6 +132,10 @@
 </div>
     <div id="sidebar">
         <h2>VILLTECC Maps</h2>
+        <!-- Botón Hamburguesa -->
+<button id="btnMenu" style="position: absolute; top: 15px; left: 15px; z-index: 1001; background: #2c3e50; color: white; padding: 10px; border: none; border-radius: 5px; font-size: 20px;">
+    ☰
+</button>
         <button onclick="window.location.href='/api/descargar-excel/'" style="width: 100%; margin-bottom: 20px; padding: 12px; background: #27ae60; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 8px; transition: 0.2s;" onmouseover="this.style.background='#219653'" onmouseout="this.style.background='#27ae60'">
     📊 Descargar Reporte en Excel
 </button>
@@ -730,6 +736,12 @@ function guardarDesdeModal() {
             }
             isDragging = false;
         });
+        const btnMenu = document.getElementById('btnMenu');
+        const sidebar = document.getElementById('sidebar');
+
+        btnMenu.addEventListener('click', () => {
+        sidebar.classList.toggle('active');
+});
     </script>
 </body>
 </html>
