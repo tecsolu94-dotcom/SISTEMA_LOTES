@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Seleccionar Manzana - VILLTECC</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; background: #1e1e24; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: #2a2a35; padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); text-align: center; width: 350px; }
+        select { width: 100%; padding: 12px; margin: 20px 0; background: #1a1a20; color: white; border: 1px solid #4fa3ff; border-radius: 6px; font-size: 16px; outline: none; }
+        button { width: 100%; padding: 14px; background: #e67e22; color: white; border: none; border-radius: 6px; font-size: 16px; font-weight: bold; cursor: pointer; transition: 0.2s; }
+        button:hover { background: #d35400; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2 style="color: #4fa3ff; margin-top: 0;">🖨️ Imprimir Plano</h2>
+        <p style="color: #aaa; font-size: 14px;">Seleccione la Manzana que desea generar en tamaño A4.</p>
+        
+        <form method="GET" action="{% url 'imprimir_manzana' %}">
+            <select name="mz" required>
+                <option value="" disabled selected>-- Elija una Manzana --</option>
+                {% for m in manzanas %}
+                    <option value="{{ m.id }}">Manzana {{ m.nombre }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Generar Reporte A4</button>
+        </form>
+        <a href="/" style="display: block; margin-top: 15px; color: #888; text-decoration: none; font-size: 13px;">⬅️ Volver al Mapa General</a>
+    </div>
+</body>
+</html>

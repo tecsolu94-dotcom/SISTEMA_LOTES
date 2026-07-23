@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Plano Manzana {{ manzana }}</title>
+    <style>
+        @page { size: A4 landscape; margin: 0; }
+        body { 
+            margin: 0; 
+            background: #fff; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            overflow: hidden; 
+        }
+        #planoA4 { display: none; }
+        #imagenImpresion { max-width: 100%; max-height: 100vh; object-fit: contain; }
+    </style>
+</head>
+<body>
+    <canvas id="planoA4" width="2800" height="1800"></canvas>
+    <img id="imagenImpresion" src="" alt="Plano A4 Generado">
+
+    <script>
+        const lotes = {{ lotes_json|safe }};
+        const canvas = document.getElementById('planoA4');
+        const ctx = canvas.getContext('2d');
+        const img = document.getElementById('imagenImpresion');
+
+        function obtenerCoordenadas(lote) {
+            let coords = lote.coordenadas_mapa || lote.coordenadas;
+            if (!coords) return null;
+            if (typeof coords === 'string') {
+                try { coords = JSON.parse(coords); } catch(e) {}
+                if (typeof coords === 'string') {
+                    try { coords = JSON.parse(coords.replace(/'/g, '"')); } catch(e) {}
+                }
+            }
+            return (Array.isArray(coords) && coords.length >= 3) ? coords : null;
+        }
+
+        let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+        let lotesValidos = 0;
+
+        lotes.forEach(lote => {
+            const coords = obtenerCoordenadas(lote);
+            if(coords) {
+                lotesValidos++;
+                coords.forEach(p => {
+                    let x = Array.isArray(p) ? p[0] : p.x;
+                    let y = Array.isArray(p) ? p[1] : p.y;
+                    if(x < minX) minX = x;
+                    if(y < minY) minY = y;
+                    if(x > maxX) maxX = x;
+                    if(y > maxY) maxY = y;
+                });
+            }
+        });
+
+        if (lotesValidos === 0) {
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.font = 'bold 60px Arial';
+            ctx.fillStyle = 'red';
+            ctx.textAlign = 'center';
+            ctx.fillText('ERROR: Esta manzana no tiene coordenadas.', canvas.width/2, canvas.height/2);
+            img.src = canvas.toDataURL();
+            setTimeout(() => { window.print(); }, 500);
+        } else {
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = '#333333';
+            ctx.font = 'bold 80px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'top';
+            ctx.fillText('MANZANA {{ manzana }}', canvas.width / 2, 60);
+
+            const anchoReal = maxX - minX;
+            const altoReal = maxY - minY;
+            const padding = 180; 
+            
+            const scale = Math.min((canvas.width - padding*2) / anchoReal, (canvas.height - padding*2) / altoReal);
+            const offsetX = (canvas.width - (anchoReal * scale)) / 2 - (minX * scale);
+            const offsetY = ((canvas.height + 80 - (altoReal * scale)) / 2) - (minY * scale);
+
+            lotes.forEach(lote => {
+                const coords = obtenerCoordenadas(lote);
+                if(!coords) return;
+                
+                ctx.beginPath();
+                coords.forEach((p, index) => {
+                    let px = Array.isArray(p) ? p[0] : p.x;
+                    let py = Array.isArray(p) ? p[1] : p.y;
+                    let x = px * scale + offsetX;
+                    let y = py * scale + offsetY;
+                    
+                    if(index === 0) ctx.moveTo(x, y);
+                    else ctx.lineTo(x, y);
+                });
+                ctx.closePath();
+
+                if(lote.estado_legal === 'LIBRE') ctx.fillStyle = '#2ecc71';
+                else if(lote.estado_legal === 'OCUPADO') ctx.fillStyle = '#e74c3c';
+                else ctx.fillStyle = '#f39c12';
+
+                ctx.fill();
+                ctx.strokeStyle = '#111';
+                ctx.lineWidth = 5;
+                ctx.stroke();
+
+                let cx = 0, cy = 0;
+                coords.forEach(p => { 
+                    cx += Array.isArray(p) ? p[0] : p.x; 
+                    cy += Array.isArray(p) ? p[1] : p.y; 
+                });
+                cx = (cx / coords.length) * scale + offsetX;
+                cy = (cy / coords.length) * scale + offsetY;
+                
+                // ⚡ LÓGICA MEJORADA DE NOMBRES APILADOS
+                ctx.fillStyle = '#fff';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                
+                // 1. Número de lote
+                ctx.font = 'bold 45px Arial';
+                ctx.fillText('Lte ' + lote.numero, cx, cy - 30);
+                
+                // 2. Nombre del propietario
+                ctx.font = 'bold 22px Arial'; // Letra ligeramente más pequeña
+                let nombre_dueño = lote.propietario__nombres ? lote.propietario__nombres.trim() : 'Libre';
+                
+                let palabras = nombre_dueño.split(' ');
+                let maxWidth = 180; // Fuerza al texto a comprimirse si toca los bordes
+                
+                if (palabras.length >= 3) {
+                    // Si el nombre es largo (Ej: "Jove Cordova Rosa") -> Apellidos arriba, Nombre abajo
+                    let linea1 = palabras[0] + ' ' + palabras[1]; 
+                    let linea2 = palabras.slice(2).join(' '); 
+                    
+                    ctx.fillText(linea1, cx, cy + 15, maxWidth);
+                    ctx.fillText(linea2, cx, cy + 45, maxWidth);
+                } else if (palabras.length === 2) {
+                    // Si solo tiene dos palabras -> Una por línea
+                    ctx.fillText(palabras[0], cx, cy + 15, maxWidth);
+                    ctx.fillText(palabras[1], cx, cy + 45, maxWidth);
+                } else {
+                    // Si es una sola palabra ("Libre")
+                    ctx.fillText(nombre_dueño, cx, cy + 25, maxWidth);
+                }
+            });
+
+            img.src = canvas.toDataURL("image/png");
+            setTimeout(() => { window.print(); }, 800);
+        }
+    </script>
+</body>
+</html>

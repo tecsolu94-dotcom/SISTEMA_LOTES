@@ -149,3 +149,39 @@ def descargar_excel_lotes(request):
         ])
 
     return response
+import json
+from django.shortcuts import render
+from .models import Lote, Manzana 
+
+def vista_impresion_manzana(request):
+    manzana_id = request.GET.get('mz')
+    
+    # 1. SI SELECCIONÓ UNA MANZANA (Por ID)
+    if manzana_id:
+        # Buscamos la Manzana real para obtener su letra (Ej: "B")
+        try:
+            manzana_obj = Manzana.objects.get(id=manzana_id)
+            nombre_manzana = manzana_obj.nombre
+        except Manzana.DoesNotExist:
+            nombre_manzana = "Desconocida"
+
+        # Traemos los lotes cruzando los datos exactos de tu models.py
+        lotes_bd = list(Lote.objects.filter(manzana_id=manzana_id).values(
+            'numero', 
+            'manzana__nombre', # ⚡ Cruzamos a la tabla Manzana para sacar la letra
+            'estado_legal',    # ⚡ Tu campo real en models.py
+            'propietario__nombres', 
+            'propietario__dni', 
+            'coordenadas_mapa' # ⚡ Tu campo real en models.py
+        ))
+        
+        context = {
+            'manzana': nombre_manzana.upper(), # Aquí pasará "B" en lugar de "4"
+            'lotes_json': json.dumps(lotes_bd),
+            'lotes_tabla': lotes_bd
+        }
+        return render(request, 'gestion_lotes/reporte_a4.html', context)
+        
+    # 2. SI NO HAY MANZANA: Mandamos los objetos completos a la pantalla de selección
+    manzanas_completas = Manzana.objects.all().order_by('nombre')
+    return render(request, 'gestion_lotes/seleccionar_manzana.html', {'manzanas': manzanas_completas})

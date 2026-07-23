@@ -171,6 +171,9 @@
         <input type="text" id="input-busqueda" placeholder="🔍 Buscar propietario o DNI..." onkeypress="if(event.key === 'Enter') ejecutarBusqueda()" style="flex: 1; padding: 10px 12px; background: #2d2d2d; border: 1px solid #444; color: #fff; border-radius: 6px; outline: none; font-size: 14px;">
         <button onclick="ejecutarBusqueda()" style="padding: 10px 15px; background: #0066cc; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: 0.2s;">Buscar</button>
     </div>
+<a href="{% url 'imprimir_manzana' %}" style="display: block; width: 100%; margin-bottom: 20px; padding: 12px; background: #e67e22; color: white; text-align: center; text-decoration: none; border-radius: 6px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.3);">
+    🖨️ Ir a Panel de Impresión A4
+</a>
     
     <div id="resultados-lista" style="margin-top: 15px; font-size: 13px; max-height: 250px; overflow-y: auto; color: #ddd;"></div>
 </div>
@@ -193,6 +196,7 @@
         <canvas id="mapaCanvas"></canvas>
     </div>
 <script>
+    
 // Función para el botón ☰ / ✖
 function toggleMenu() {
     const sidebar = document.getElementById('sidebar');
@@ -301,7 +305,109 @@ function seleccionarPersona(index) {
     htmlLotes += "</ul></div>";
     cajaResultados.innerHTML = htmlLotes;
 }
+// Función inteligente para buscar, aislar e imprimir una sola manzana a color
+function buscarYImprimirManzana() {
+    if (typeof lotes === 'undefined' || !lotes) {
+        alert("Los datos del plano aún no cargan.");
+        return;
+    }
 
+    // 1. Le preguntamos al usuario qué manzana desea imprimir
+    let mz = prompt("🖨️ ¿Qué Manzana deseas aislar e imprimir? (Ejemplo: B, A2, M)\n\n💡 TIP: Antes de aceptar, asegúrate de tener la manzana bien centrada y con zoom en tu pantalla.");
+
+    if (!mz || mz.trim() === "") return; // Si cancela, no hacemos nada
+
+    mz = mz.trim().toUpperCase();
+
+    // 2. Filtramos la manzana
+    const lotesManzana = lotes.filter(l => String(l.manzana).toUpperCase() === mz);
+
+    if (lotesManzana.length === 0) {
+        alert("⚠️ No encontramos ningún lote en la Manzana " + mz);
+        return;
+    }
+
+    // 3. ⚡ AISLAMOS LA MANZANA
+    const lotesOriginales = [...lotes]; // Guardamos copia del mapa completo
+    lotes.length = 0; 
+    lotes.push(...lotesManzana); // Dejamos SOLO la manzana elegida
+    
+    if (typeof dibujarMapa === 'function') dibujarMapa();
+
+    // 4. Tomamos la fotografía de alta calidad al dibujo aislado
+    const canvas = document.querySelector('canvas');
+    const mapaImagen = canvas.toDataURL('image/png', 1.0);
+
+    // 5. ⚡ RESTAURAMOS EL MAPA a la normalidad de inmediato
+    lotes.length = 0;
+    lotes.push(...lotesOriginales);
+    if (typeof dibujarMapa === 'function') dibujarMapa();
+
+    // 6. Armamos la hoja A4 Horizontal con la foto y la leyenda
+    const ventanaA4 = window.open('', '_blank');
+    let filasHTML = '';
+
+    lotesManzana.forEach(lote => {
+        let colorEstado = lote.estado === 'LIBRE' ? '#2ecc71' : (lote.estado === 'OCUPADO' ? '#e74c3c' : '#f39c12');
+        let propietario = lote.propietario_nombre || lote.propietario__nombres || 'Libre';
+
+        filasHTML += `
+            <tr>
+                <td style="padding: 4px; border: 1px solid #ddd; text-align: center; font-weight: bold;">Lte ${lote.numero}</td>
+                <td style="padding: 4px; border: 1px solid #ddd; text-align: center;"><span style="background: ${colorEstado}; color: #fff; padding: 2px 6px; border-radius: 4px; font-size: 11px;">${lote.estado}</span></td>
+                <td style="padding: 4px; border: 1px solid #ddd; font-size: 12px;">${propietario}</td>
+            </tr>
+        `;
+    });
+
+    ventanaA4.document.write(`
+        <html>
+            <head>
+                <title>Plano Manzana ${mz} - VILLTECC</title>
+                <style>
+                    @page { size: A4 landscape; margin: 10mm; }
+                    body { font-family: Arial, sans-serif; color: #000; background: #fff; margin: 0; padding: 0; text-align: center; }
+                    .header { border-bottom: 2px solid #e67e22; padding-bottom: 5px; margin-bottom: 15px; }
+                    .header h2 { color: #e67e22; margin: 0; font-size: 22px;}
+                    .mapa-container { margin-bottom: 15px; }
+                    .mapa-img { max-width: 100%; max-height: 500px; border: 2px solid #333; border-radius: 8px; object-fit: cover; }
+                    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+                    th { background: #f4f4f4; border: 1px solid #ddd; padding: 6px; text-align: center; }
+                    .footer { margin-top: 20px; font-size: 11px; color: #666; border-top: 1px solid #ddd; padding-top: 5px; }
+                </style>
+            </head>
+            <body>
+                <div class="header">
+                    <h2>VILLTECC - Plano Aislado Manzana ${mz}</h2>
+                </div>
+                
+                <div class="mapa-container">
+                    <img class="mapa-img" src="${mapaImagen}" alt="Plano Aislado" />
+                </div>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>N° Lote</th>
+                            <th>Estado Legal</th>
+                            <th>Propietario / Comprador</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${filasHTML}
+                    </tbody>
+                </table>
+                
+                <div class="footer">Generado por VILLTECC Maps - Control Inmobiliario</div>
+                
+                <script>
+                    setTimeout(function() { window.print(); }, 500);
+                <\/script>
+            </body>
+        </html>
+    `);
+    ventanaA4.document.close();
+}
 // ⚡ Función extra para limpiar el brillo cuando regresamos a la lista
 function limpiarBusqueda() {
     lotesDestacados = []; // Borramos la memoria
